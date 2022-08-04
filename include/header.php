@@ -34,12 +34,12 @@
                          <li class="dropdown"><a href="#"><span>Corporate</span> <i
                                     class="bi bi-chevron-right"></i></a>
                             <ul>
-                                <li><a href="#">Accounting</a></li>
-                                <li><a href="#">Tax Advisory</a></li>
-                                <li><a href="#">Business Advisory</a></li>
-                                <li><a href="#">Business Setup</a></li>
-                                <li><a href="#">Virtual SFO Services</a></li>
-                                <li><a href="#">International Taxation</a></li>
+                                <li><a href="accounting.php">Accounting & Auditing</a></li>
+                                <li><a href="Tax-Advisory.php">Tax Advisory</a></li>
+                                <li><a href="Business-Advisory.php">Business Advisory</a></li>
+                                <li><a href="Business-Setup.php">Business Setup</a></li>
+                                <li><a href="Virtual-CFO.php">Virtual SFO Services</a></li>
+                                <li><a href="International-Taxation.php">International Taxation</a></li>
                             </ul>
                         </li>
                         
@@ -47,11 +47,11 @@
                         <li class="dropdown"><a href="#"><span>Finance</span> <i
                                     class="bi bi-chevron-right"></i></a>
                             <ul>
-                                <li><a href="#">Working Capital</a></li>
-                                <li><a href="#">Project Finance</a></li>
-                                <li><a href="#">Unsecured Business Loan</a></li>
-                                <li><a href="#">IAB</a></li>
-                                <li><a href="#">Home Loan</a></li>
+                                <li><a href="Working-Capital.php">Working Capital</a></li>
+                                <li><a href="Project-Finance.php">Project Finance</a></li>
+                                <li><a href="Unsecured-Business-Loan.php">Unsecured Business Loan</a></li>
+                                <li><a href="LAP.php">LAP</a></li>
+                                <li><a href="Home-Loan.php">Home Loan</a></li>
                             </ul>
                         </li>
                        
@@ -59,10 +59,10 @@
                          <li class="dropdown"><a href="#"><span>Compliance</span> <i
                                     class="bi bi-chevron-right"></i></a>
                             <ul>
-                                <li><a href="#">Ministry Of Corporate Affairs(MCA)</a></li>
-                                <li><a href="#">SEBI Compliance</a></li>
-                                <li><a href="#">ROC Compliance</a></li>
-                                <li><a href="#">RBI & FEMA Compliance</a></li>
+                                <li><a href="MCA.php">Ministry Of Corporate Affairs(MCA)</a></li>
+                                <li><a href="SEBI-Compliance.php">SEBI Compliance</a></li>
+                                <li><a href="ROC-Compliance.php">ROC Compliance</a></li>
+                                <li><a href="RBI-FEMA-Cmpliance.php">RBI & FEMA Compliance</a></li>
                             </ul>
                         </li>
 
@@ -97,14 +97,14 @@
                         
                          <!-- EXIM -->
 
-                        <li><a href="#">EXIM Service</a></li>
+                        <li><a href="EXIM.php">EXIM Service</a></li>
 
                         
                     </ul>
                 </li>
                 <li><a class="nav-link scrollto" href="industries.php">Industries We Serve</a></li>
-                <li><a class="nav-link scrollto " href="#portfolio">Career</a></li>
-                <li><a class="nav-link scrollto" href="#team">Contact Us</a></li>
+                <li><a class="nav-link scrollto " href="careers.php">Career</a></li>
+                <li><a class="nav-link scrollto" href="contact_us.php">Contact Us</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->

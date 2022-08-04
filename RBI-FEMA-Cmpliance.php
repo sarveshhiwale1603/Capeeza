@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>About Us - Capeeza</title>
+    <title>RBI & FEMA Compliance - Capeeza</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/images/logo/logo-capeeza.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -39,34 +39,38 @@
 
     <!-- ======= Hero Section ======= -->
     <section id="hero2" class="d-flex flex-column justify-content-center align-items-center"
-        style="background: url('assets/img/hero-bg.jpg') center center;">
+        style="background: url('assets/images/backgrounds/Business-Advisory.webp') center center;">
         <div class="container" data-aos="fade-in">
-            <h1>About Us</h1>
+            <h2>Free & Impartial Advice!</h2>
+            <h1>RBI & FEMA Compliance</h1>
         </div>
     </section><!-- End Hero -->
 
     <main id="main">
 
-               <!-- ======= Services Section ======= -->
-               <section id="services" class="services">
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services">
             <div class="container">
 
                 <div class="section-title" data-aos="fade-up">
-                    <h1 style="line-height:38px;">About Us</h1>
+                    <h1 style="line-height:38px;">ROC / ROF Compliances</h1>
                 </div>
 
                 <div class="row my-3">
 
                     <div class="col-lg-12 col-md-12" data-aos="fade-up">
 
-                       <p  class="description" style="text-align: left">Capeeza Corp services offer Professional & Organized services to Businesses, Tax paying Individuals, banks and Institutions such as trust and societies etc.</p>
+                        <p class="description my-4" style="text-align: left;">Corporate and Individuals continuously face challenges to comply with FEMA/RBI regulations within the stipulated time, due to the complexities in various industrial segments. Due to globalization, the importance of FEMA/ RBI Compliance has increased manifold. We have an expert team which specifically caters to the following work related to Foreign Exchange Management Act, 1999 as well as other compliances required by the Reserve Bank of India (RBI):</p>
+                        
+                        <h3>COMPLIANCE FOR FOREIGN COMPANIES IN INDIA</h3>
 
-                       <p  class="description" style="text-align: left">Capeeza offers services for business Start-Up, Advisory and Consultation, Statutory Audit, Internal Audit, Taxation Management (Direct & Indirect), Registration of Companies, LLPs & ROC liaising, Financial Project Reports & Consultancy, Valuations and International Taxation. Capeeza also specializes in all kinds of Loans & Import - Export Services.</p>
+                        <p class="description my-4" style="text-align: left;">All new entities setting up Liason Office or Branch Office in India shall:</p>
 
-                       <p  class="description" style="text-align: left">Capeeza is having its offices in Manchar, Pune and Navi Mumbai, our clients come from many different backgrounds and are active in all branches of commerce and industry.</p>
-
-
-
+                        <ul class="my-3" style="text-align: left;">
+                        <li>submit a report containing information, as per format provided in Annex 3 within five working days of the LO/BO becoming functional to the Director General of Police (DGP) of the state concerned in which LO/BO has established its office;</li>
+                        <li>If there is more than one office of such a foreign entity, in such cases to each of the DGP concerned of the state where it has established office in India;</li>
+                        <li>Branch Offices / Liaison Offices have to file Annual Activity Certificates (AAC) (Annex 4) from Chartered Accountants, at the end of March 31, along with the audited Balance Sheet on or before September 30 of that year. 4. In case the annual accounts of the LO/ BO are finalized with reference to a date other than March 31, the AAC along with the audited Balance Sheet may be submitted within six months from the due date of the Balance Sheet to the designated AD Category I bank, and a copy to the Directorate General of Income Tax (International Taxation), New Delhi along with the audited financial statements including receipt and payment account.</li>
+                        </ul>
                     </div>
                 </div>
 

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>About Us - Capeeza</title>
+    <title>Accounting & Auditing - Capeeza</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -41,32 +41,47 @@
     <section id="hero2" class="d-flex flex-column justify-content-center align-items-center"
         style="background: url('assets/img/hero-bg.jpg') center center;">
         <div class="container" data-aos="fade-in">
-            <h1>About Us</h1>
+            <h2>Free & Impartial Advice!</h2>
+            <h1>Accounting compliance <br> and reporting</h1>
         </div>
     </section><!-- End Hero -->
 
     <main id="main">
 
-               <!-- ======= Services Section ======= -->
-               <section id="services" class="services">
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services">
             <div class="container">
 
                 <div class="section-title" data-aos="fade-up">
-                    <h1 style="line-height:38px;">About Us</h1>
+                    <h1>Accounting & Auditing</h1>
+                    <ul class="my-3" style="text-align: left;">
+                        <li> Monthly Accounting Compliance</li>
+                        <li> Statutory Audit</li>
+                        <li> Internal Audit</li>
+                        <li> Restructuring,Valuations, Mergers and Amalgamations</li>
+                    </ul>
                 </div>
 
-                <div class="row my-3">
-
+                <div class="row">
                     <div class="col-lg-12 col-md-12" data-aos="fade-up">
-
-                       <p  class="description" style="text-align: left">Capeeza Corp services offer Professional & Organized services to Businesses, Tax paying Individuals, banks and Institutions such as trust and societies etc.</p>
-
-                       <p  class="description" style="text-align: left">Capeeza offers services for business Start-Up, Advisory and Consultation, Statutory Audit, Internal Audit, Taxation Management (Direct & Indirect), Registration of Companies, LLPs & ROC liaising, Financial Project Reports & Consultancy, Valuations and International Taxation. Capeeza also specializes in all kinds of Loans & Import - Export Services.</p>
-
-                       <p  class="description" style="text-align: left">Capeeza is having its offices in Manchar, Pune and Navi Mumbai, our clients come from many different backgrounds and are active in all branches of commerce and industry.</p>
-
-
-
+                        <!-- <div class="icon-box"> -->
+                        <!-- <div class="icon"><i class="bi bi-clock"></i></div> -->
+                        <h3>Fraud Detection & Forensic Audits</h3>
+                        <p class="description" style="text-align: left;">We provide fraud detection & forensic audit
+                            services to many clients.
+                            Fraud investigation includes detailed verifications, evidence collections, legal support for
+                            further actions to be taken. It also include post fraud investigation as well as
+                            establishing proper internal controls for fraud prevention.</p>
+                        <p class="description my-3" style="text-align: left;">We have provided fraud investigation
+                            services as follows:</p>
+                        <ul class="my-3" style="text-align: left;">
+                            <li> Funds siphoning & Banking frauds</li>
+                            <li> Vendor Payment Frauds</li>
+                            <li> Sales & Procurement Frauds</li>
+                            <li> Employment Frauds</li>
+                            <li> Information System Frauds</li>
+                        </ul>
+                        <!-- </div> -->
                     </div>
                 </div>
 

@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>About Us - Capeeza</title>
+    <title>ROC / ROF Compliances - Capeeza</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/images/logo/logo-capeeza.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -39,34 +39,29 @@
 
     <!-- ======= Hero Section ======= -->
     <section id="hero2" class="d-flex flex-column justify-content-center align-items-center"
-        style="background: url('assets/img/hero-bg.jpg') center center;">
+        style="background: url('assets/images/backgrounds/Business-Advisory.webp') center center;">
         <div class="container" data-aos="fade-in">
-            <h1>About Us</h1>
+            <h2>Free & Impartial Advice!</h2>
+            <h1>ROC / ROF Compliances</h1>
         </div>
     </section><!-- End Hero -->
 
     <main id="main">
 
-               <!-- ======= Services Section ======= -->
-               <section id="services" class="services">
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services">
             <div class="container">
 
                 <div class="section-title" data-aos="fade-up">
-                    <h1 style="line-height:38px;">About Us</h1>
+                    <h1 style="line-height:38px;">ROC / ROF Compliances</h1>
                 </div>
 
                 <div class="row my-3">
 
                     <div class="col-lg-12 col-md-12" data-aos="fade-up">
 
-                       <p  class="description" style="text-align: left">Capeeza Corp services offer Professional & Organized services to Businesses, Tax paying Individuals, banks and Institutions such as trust and societies etc.</p>
-
-                       <p  class="description" style="text-align: left">Capeeza offers services for business Start-Up, Advisory and Consultation, Statutory Audit, Internal Audit, Taxation Management (Direct & Indirect), Registration of Companies, LLPs & ROC liaising, Financial Project Reports & Consultancy, Valuations and International Taxation. Capeeza also specializes in all kinds of Loans & Import - Export Services.</p>
-
-                       <p  class="description" style="text-align: left">Capeeza is having its offices in Manchar, Pune and Navi Mumbai, our clients come from many different backgrounds and are active in all branches of commerce and industry.</p>
-
-
-
+                        <p class="description my-4" style="text-align: left;">Every Company is mandatorily required to comply with Registrar of Companies (ROC) by filing various online forms on the website of the  ROC ( Ministry of Corporate Affairs), providing financial and other details of the company periodically. At times, this periodical filing of forms with ROC becomes a pain for Start-Ups and Small to Medium Level companies, as they are not very sure of details to be filed in these forms, selection of forms also becomes big hassle.</p>
+                        
                     </div>
                 </div>
 

@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>About Us - Capeeza</title>
+    <title>SEBI Compliance - Capeeza</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/images/logo/logo-capeeza.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -39,34 +39,38 @@
 
     <!-- ======= Hero Section ======= -->
     <section id="hero2" class="d-flex flex-column justify-content-center align-items-center"
-        style="background: url('assets/img/hero-bg.jpg') center center;">
+        style="background: url('assets/images/backgrounds/Business-Advisory.webp') center center;">
         <div class="container" data-aos="fade-in">
-            <h1>About Us</h1>
+            <h2>Free & Impartial Advice!</h2>
+            <h1>SEBI Compliances</h1>
         </div>
     </section><!-- End Hero -->
 
     <main id="main">
 
-               <!-- ======= Services Section ======= -->
-               <section id="services" class="services">
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services">
             <div class="container">
 
                 <div class="section-title" data-aos="fade-up">
-                    <h1 style="line-height:38px;">About Us</h1>
+                    <h1 style="line-height:38px;">SEBI Compliances</h1>
                 </div>
 
                 <div class="row my-3">
 
                     <div class="col-lg-12 col-md-12" data-aos="fade-up">
 
-                       <p  class="description" style="text-align: left">Capeeza Corp services offer Professional & Organized services to Businesses, Tax paying Individuals, banks and Institutions such as trust and societies etc.</p>
+                        <p class="description my-4" style="text-align: left;">SEBI is an autonomous body for the overall development and regulation of the securities market.</p>
+                        <p class="description my-4" style="text-align: left;">SEBI was constituted on April 12, 1988, under the Government of India - as a regulatory body under the supervision of the Ministry of Finance.</p>
+                        <p class="description my-4" style="text-align: left;">In the year 1992, SEBI became a statutory body under the Securities and Exchange Board of India Act, 1992.</p>
+                        <p class="description my-4" style="text-align: left;">SEBI has its headquarters at Mumbai and having its regional offices in New Delhi, Chennai, Kolkata, Ahmedabad, and local offices in different cities in India.</p>
 
-                       <p  class="description" style="text-align: left">Capeeza offers services for business Start-Up, Advisory and Consultation, Statutory Audit, Internal Audit, Taxation Management (Direct & Indirect), Registration of Companies, LLPs & ROC liaising, Financial Project Reports & Consultancy, Valuations and International Taxation. Capeeza also specializes in all kinds of Loans & Import - Export Services.</p>
+                        <h2>The objectives of SEBI</h2>
 
-                       <p  class="description" style="text-align: left">Capeeza is having its offices in Manchar, Pune and Navi Mumbai, our clients come from many different backgrounds and are active in all branches of commerce and industry.</p>
+                        <p class="description my-4" style="text-align: left;">SEBI’s responsibility is to ensure protect the securities market in India, regulates Indian capital and also safeguard the interest of investors, traders in the Indian stock market by providing a healthy atmosphere and focus on developing the capital markets by enforcing various rules and regulations.</p>
+                        <p class="description my-4" style="text-align: left;">Capeeza Corp has technical expertise in filing the Quarterly/half yearly/yearly compliances. We also provide services in event-based compliances such as Shareholding Pattern prior to the listing of securities, the appointment of share transfer agents, etc.</p>
 
-
-
+                        
                     </div>
                 </div>
 

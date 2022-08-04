@@ -65,7 +65,7 @@
         </div>
 
 
-        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
           <div class="col-xl-12 col-lg-12 mt-4">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
@@ -92,10 +92,12 @@
               </div>
               <div class="row mt-3">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="Salary" class="form-control" id="Salary" placeholder="Salary Expectation" required>
+                  <input type="text" name="Salary" class="form-control" id="Salary" placeholder="Salary Expectation"
+                    required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="file" class="form-control" name="Resume" id="Resume" placeholder="Upload Resume" required>
+                  <input type="file" class="form-control" name="Resume" id="Resume" placeholder="Upload Resume"
+                    required>
                 </div>
               </div>
               <div class="form-group mt-3">
