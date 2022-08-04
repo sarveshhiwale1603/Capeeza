@@ -1,13 +1,4 @@
-/**
-* Template Name: Flexor - v4.8.0
-* Template URL: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #313030;
@@ -267,6 +258,9 @@ h6 {
   top: 0;
   left: calc(100% - 30px);
   visibility: hidden;
+  overflow: scroll;
+  height:400px;
+  width: 300px;
 }
 
 .navbar .dropdown .dropdown:hover>ul {
@@ -278,11 +272,11 @@ h6 {
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
-    left: -90%;
+    right: -90%;
   }
 
   .navbar .dropdown .dropdown:hover>ul {
-    left: -100%;
+    right: -100%;
   }
 }
 
@@ -395,6 +389,80 @@ h6 {
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
 }
+
+
+/*--------------------------------------------------------------
+# Hero2 Section
+--------------------------------------------------------------*/
+#hero2 {
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  margin-bottom: 0px !important;
+}
+
+#hero2:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero2 .container {
+  z-index: 2;
+}
+
+#hero2 h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+@media (min-width: 1024px) {
+  #hero2 {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 1024px),
+(max-height: 768px) {
+  #hero2 {
+    margin-bottom: 15px;
+    height: 60vh;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero2 {
+    height: 40vh;
+  }
+
+  #hero2 h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero2 h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-height: 640px) {
+  #hero2 {
+    height: 90vh;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -610,7 +678,7 @@ section {
 }
 
 .why-us .content .more-btn:hover {
-  color: #ff5821;
+  color: #ff7601;
   background: #fff;
 }
 
@@ -625,20 +693,59 @@ section {
 
 .why-us .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #ff5821;
-  margin-bottom: 30px;
+  color: #59CCBA;
+  /* margin-bottom: 30px; */
+  
+}
+
+.why-us .icon-boxes .icon-box .icon {
+  /* float: right;
+  display: flex;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #ffcbba;
+  border-radius: 50px;
+  transition: 0.5s;
+  background: #fff; */
+  position: absolute;
+    top: 15px;
+    left: calc(50% - 36px);
+    transition: 0.2s;
+    border-radius: 50%;
+  justify-content: center;
+
+    /* border: 6px solid #fff; */
+    display: flex;
+  border: 2px solid #bff5ed;
+
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    background: #fff;
+}
+.why-us .icon-box:hover .icon {
+  background: #59CCBA;
+  border-color: #ff7601;
+}
+.why-us .icon-box:hover .icon i {
+  color: #fff;
 }
 
 .why-us .icon-boxes .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
-  margin: 0 0 30px 0;
+  margin: 35px 0 30px 0;
 }
 
 .why-us .icon-boxes .icon-box p {
   font-size: 15px;
   color: #716f6f;
 }
+
 
 /*--------------------------------------------------------------
 # About
@@ -850,7 +957,7 @@ section {
   margin-top: 35px;
   margin-bottom: 25px;
   text-align: center;
-  height: 200px;
+  height: 250px;
   position: relative;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -904,8 +1011,8 @@ section {
 }
 
 .services .description {
-  line-height: 24px;
-  font-size: 14px;
+  line-height: 26px;
+  font-size: 17px;
 }
 
 /*--------------------------------------------------------------
@@ -1524,6 +1631,7 @@ section {
   color: #313030;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px;
+  border-radius: 15px !important;
 }
 
 .contact .info-box i {
@@ -1597,18 +1705,23 @@ section {
 }
 
 .contact .php-email-form input,
-.contact .php-email-form textarea {
+.contact .php-email-form textarea,
+.contact .php-email-form select  {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
 .contact .php-email-form input:focus,
-.contact .php-email-form textarea:focus {
+.contact .php-email-form textarea:focus,
+.contact .php-email-form select:focus  {
   border-color: #ff5821;
 }
 
 .contact .php-email-form input {
+  padding: 10px 15px;
+}
+.contact .php-email-form select{
   padding: 10px 15px;
 }
 

@@ -27,12 +27,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Flexor - v4.8.0
-  * Template URL: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+ 
 </head>
 
 <body>
@@ -56,7 +51,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1><a href="index.html">Flexor</a></h1>
+        <h1><a href="index.html"><img src="assets/images/logo/logo-capeeza.png" alt=""></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -114,7 +109,7 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-xl-4 col-lg-5" data-aos="fade-up">
+          <!-- <div class="col-xl-4 col-lg-5" data-aos="fade-up">
             <div class="content">
               <h3>Why Choose Flexor for your company website?</h3>
               <p>
@@ -125,29 +120,37 @@
                 <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
               </div>
             </div>
-          </div>
-          <div class="col-xl-8 col-lg-7 d-flex">
+          </div> -->
+          <div class="col-xl-12 col-lg-12 d-flex">
             <div class="icon-boxes d-flex flex-column justify-content-center">
               <div class="row">
-                <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-xl-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                   <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-receipt"></i>
-                    <h4>Corporis voluptates sit</h4>
-                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                 <div class="icon ">  <i class="bi bi-eye-fill"></i></div> <br>
+                    <h4>Our Vision</h4>
+                    <p>To be the successful, Respected and trusted business partners by providing excellent service to our clients. 
+                    </p>
                   </div>
                 </div>
-                <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-xl-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                   <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-cube-alt"></i>
-                    <h4>Ullamco laboris ladore pan</h4>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                 <div class="icon "><i class="bi bi-lightbulb"></i></div> <br>
+                    <h4>Our Mission</h4>
+                    <p>We will predominantly work with organisations in the  voluntary sectors as partners to help them achieve their desired outcomes.</p>
                   </div>
                 </div>
-                <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-xl-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                   <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-images"></i>
-                    <h4>Labore consequatur</h4>
-                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                 <div class="icon "><i class="bi bi-clock-history"></i></div> <br>
+                    <h4>Our Objective</h4>
+                    <p>We are committed to creating and sustaining long term relationships which drawn on our experience and expertise to help our clients achieve real success.</p>
+                  </div>
+                </div>
+                <div class="col-xl-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon-box mt-4 mt-xl-0">
+                 <div class="icon "><i class="bi bi-gear"></i></div> <br>
+                    <h4>Excellence in service</h4>
+                    <p>To not just meet but exceed client expectation consistently by imbibing Teamwork, Professionalism, Personalised Service & Specialisation.</p>
                   </div>
                 </div>
               </div>
