@@ -29,6 +29,15 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
+    <style>
+     .BusiSet, .corp{
+        color: #ff5821 !important;
+    }
+    .Service{
+        color:cyan !important;
+    }
+</style>
+
 
 </head>
 

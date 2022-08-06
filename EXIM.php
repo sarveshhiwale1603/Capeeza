@@ -29,6 +29,14 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
+    <style>
+     .exim{
+        color: #ff5821 !important;
+    }
+    .Service{
+        color:cyan !important;
+    }
+</style>
 
 </head>
 

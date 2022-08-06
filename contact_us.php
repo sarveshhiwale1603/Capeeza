@@ -33,6 +33,9 @@
         .img-fluid {
             border-radius: 10px;
         }
+        .contactus{
+        color:cyan !important;
+    }
     </style>
 
 </head>

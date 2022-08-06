@@ -30,6 +30,15 @@
     <link href="assets/css/style.css" rel="stylesheet">
 
 
+    <style>
+     .IntTax, .corp{
+        color: #ff5821 !important;
+    }
+    .Service{
+        color:cyan !important;
+    }
+</style>
+
 </head>
 
 <body>

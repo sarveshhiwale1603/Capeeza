@@ -33,6 +33,10 @@
     .img-fluid {
       border-radius: 10px;
     }
+   
+    .career{
+        color:cyan !important;
+    }
   </style>
 
 </head>
