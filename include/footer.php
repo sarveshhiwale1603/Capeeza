@@ -28,13 +28,13 @@
                 <div class="col-lg-4 col-md-6 footer-links">
                     <h4>Useful Links</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Income Tax Department</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Central Board Of Excise & Custom</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">E-Tax Information Network</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Ministry Of Company Affairs</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Employees Provident fund</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">GST</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">RERA</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://incometaxindia.gov.in/Pages/default.aspx">Income Tax Department</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="http://cbec.gov.in/">Central Board Of Excise & Custom</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://www.tin-nsdl.com/">E-Tax Information Network</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://www.mca.gov.in/content/mca/global/en/home.html">Ministry Of Company Affairs</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://www.epfindia.gov.in/site_en/">Employees Provident fund</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://www.gst.gov.in/">GST</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a target="_blank" href="https://maharera.mahaonline.gov.in/">RERA</a></li>
 
                     </ul>
                 </div>

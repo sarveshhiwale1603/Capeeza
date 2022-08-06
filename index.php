@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Flexor Bootstrap Template - Index</title>
+  <title>Capeeza - Index</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -46,11 +46,11 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="container" data-aos="fade-in">
-      <h1>Welcome to Flexor</h1>
-      <h2>We are team of talented designers making websites with Bootstrap</h2>
+      <h1>Avail Capeeza Corp’s loan services for your personal or business needs.</h1>
+      <h2>Capeeza Corp offers home loans which are designed to fulfil all your housing finance/mortgage requirements.</h2>
       <div class="d-flex align-items-center">
         <i class="bx bxs-right-arrow-alt get-started-icon"></i>
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        <a href="#about" class="btn-get-started scrollto">Contact Us</a>
       </div>
     </div>
   </section><!-- End Hero -->

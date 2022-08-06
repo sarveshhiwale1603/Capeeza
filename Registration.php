@@ -1,27 +1,3 @@
-<?php
-	if(isset($_POST['submit1'])){
-		$name=$_POST['name'];
-		$email=$_POST['email'];
-		$phone=$_POST['phone'];
-        $services=$_POST['services'];
-		$address=$_POST['address'];
-
-		$to='sarveshhiwale07@gmail.com'; // Receiver Email ID, Replace with your email ID
-		$subject='Form Submission';
-		$message="Name :".$name."\n"."Phone :".$phone."\n"."address :"."\n\n".$address. "/n"."service :"."/n/n".$services;
-		$headers="From: ".$email;
-
-		if(mail($to, $subject, $message, $headers)){
-			// echo "<h1>Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h1>";
-            // echo"<script>alert('success')</script> window.location='Registration.php'";
-		}
-		else{
-			echo "Something went wrong!";
-		}
-	}
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -62,7 +38,7 @@
             border-radius: 15px;
         }
 
-        h3 {
+        h5 {
             line-height: 40px;
 
         }
@@ -116,7 +92,7 @@
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-app">
                         <div class="blue card shadow text-center ">
-                            <h3>GST Registration</h3>
+                            <h5>GST Registration</h5>
                         </div>
 
                     </div>
@@ -124,127 +100,127 @@
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <div class="blue card shadow text-center ">
-                            <h3> Pan & Tan</h3>
+                            <h5> Pan & Tan</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <div class="blue card shadow text-center ">
-                            <h3>Copyrights</h3>
+                            <h5>Copyrights</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <div class="blue card shadow text-center ">
-                            <h3>Logo/Trademark Registration</h3>
+                            <h5>Logo/Trademark Registration</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <div class="blue card shadow text-center ">
-                            <h3>Patents</h3>
+                            <h5>Patents</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <div class="blue card shadow text-center ">
-                            <h3>FSSAI</h3>
+                            <h5>FSSAI</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <div class="blue card shadow text-center ">
-                            <h3>Liquor Licence</h3>
+                            <h5>Liquor Licence</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <div class="blue card shadow text-center ">
-                            <h3>PF & ESIC</h3>
+                            <h5>PF & ESIC</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <div class="blue card shadow text-center ">
-                            <h3>Maharera Registration</h3>
+                            <h5>Maharera Registration</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <div class="blue card shadow text-center ">
-                            <h3>Professional Tax Registration</h3>
+                            <h5>Professional Tax Registration</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <div class="blue card shadow text-center ">
-                            <h3>Udyam / MSME Registration</h3>
+                            <h5>Udyam / MSME Registration</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <div class="blue card shadow text-center ">
-                            <h3>ISO Registration</h3>
+                            <h5>ISO Registration</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <div class="blue card shadow text-center ">
-                            <h3>Digital Signatur</h3>
+                            <h5>Digital Signatur</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <div class="blue card shadow text-center ">
-                            <h3>NGO/Trust Registration</h3>
+                            <h5>NGO/Trust Registration</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <div class="blue card shadow text-center ">
-                            <h3>Shop Act</h3>
+                            <h5>Shop Act</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <div class="blue card shadow text-center ">
-                            <h3>Arm Licence</h3>
+                            <h5>Arm Licence</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <div class="blue card shadow text-center ">
-                            <h3>SSI Registration</h3>
+                            <h5>SSI Registration</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <div class="blue card shadow text-center ">
-                            <h3>E-Way Bill Registration</h3>
+                            <h5>E-Way Bill Registration</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <div class="blue card shadow text-center ">
-                            <h3>Govt. Contractor Registration</h3>
+                            <h5>Govt. Contractor Registration</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <div class="blue card shadow text-center ">
-                            <h3>Labour Licence</h3>
+                            <h5>Labour Licence</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <div class="blue card shadow text-center ">
-                            <h3>Pollution Certificate</h3>
+                            <h5>Pollution Certificate</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <div class="blue card shadow text-center ">
-                            <h3>Fire NOC</h3>
+                            <h5>Fire NOC</h5>
                         </div>
                     </div>
 
@@ -333,6 +309,41 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <?php
+	if(isset($_POST['submit1'])){
+		$name=$_POST['name'];
+		$email=$_POST['email'];
+		$phone=$_POST['phone'];
+        $services=$_POST['services'];
+		$address=$_POST['address'];
+
+		$to='sarveshhiwale07@gmail.com'; // Receiver Email ID, Replace with your email ID
+		$subject='Form Submission';
+		$message="Name :".$name."\n"."Phone :".$phone."\n"."address :"."\n\n".$address. "/n"."service :"."/n/n".$services;
+		$headers="From: ".$email;
+
+		if(mail($to, $subject, $message, $headers)){?>
+ <script>swal({
+          icon:"success",
+                title: "Order Registered!",
+                text: "Thank you.",
+                timer: 2000,
+                showConfirmButton: false,
+              });
+    // swal("Message Sent!", "Thank you for contacting us.", "success");
+      
+  </script> 
+
+<?php
+			// echo "<h1>Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h1>";
+            // echo"<script>alert('success')</script> window.location='Registration.php'";
+		}
+		else{
+			echo "Something went wrong!";
+		}
+	}
+?>
 
 </body>
 
