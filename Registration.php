@@ -321,7 +321,7 @@
 
 		$to='sarveshhiwale07@gmail.com'; // Receiver Email ID, Replace with your email ID
 		$subject='Form Submission';
-		$message="Name : ".$name."\n"."Phone : ".$phone."\n"."address : ".$address."/n"."service : ".$services;
+		$message="Name : ".$name."\n"."Phone : ".$phone."\n"."Address : ".$address."\n"."Service : ".$services;
 		$headers="From: ".$email;
 
 		if(mail($to, $subject, $message, $headers)){?>
