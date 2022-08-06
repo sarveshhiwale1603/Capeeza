@@ -244,7 +244,7 @@
                             </div>
                             <div class="row mt-3">
                                 <div class="col-md-6 form-group">
-                                    <input type="tel" name="Phone" class="form-control" id="Phone"
+                                    <input type="tel" name="phone" class="form-control" id="Phone"
                                         placeholder="Phone No" required>
                                 </div>
                                 <div class="col-md-6 form-group mt-3 mt-md-0">
@@ -321,7 +321,7 @@
 
 		$to='sarveshhiwale07@gmail.com'; // Receiver Email ID, Replace with your email ID
 		$subject='Form Submission';
-		$message="Name :".$name."\n"."Phone :".$phone."\n"."address :"."\n\n".$address. "/n"."service :"."/n/n".$services;
+		$message="Name :".$name."\n"."Phone :".$phone."\n"."address :"."\n".$address. "/n"."service :"."/n".$services;
 		$headers="From: ".$email;
 
 		if(mail($to, $subject, $message, $headers)){?>
