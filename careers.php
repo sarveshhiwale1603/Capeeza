@@ -166,8 +166,7 @@
 
 if(isset($_POST['button']) && isset($_FILES['attachment']))
 {
-	$from_email		 = 'sender@abc.com'; //from mail, sender email address
-	$recipient_email = 'sarveshhiwale07@gmail.com'; //recipient email address
+
 	
 	//Load POST data from HTML form
 	$sender_name = $_POST["sender_name"]; //sender name
@@ -176,7 +175,9 @@ if(isset($_POST['button']) && isset($_FILES['attachment']))
 	$message	 = $_POST["message"]; //body of the email
   $Salary  = $_POST["Salary"];
 
-
+	$from_email		 = ''.$reply_to_email.''; //from mail, sender email address
+	$recipient_email = 'sarveshhiwale07@gmail.com'; //recipient email address
+  
 	/*Always remember to validate the form fields like this
 	if(strlen($sender_name)<1)
 	{
