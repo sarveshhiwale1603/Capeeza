@@ -252,6 +252,18 @@ if(isset($_POST['button']) && isset($_FILES['attachment']))
 
 	if($sentMailResult )
 	{
+    ?>
+<script>swal({
+          icon:"success",
+                title: "Order Registered!",
+                text: "Thank you.",
+                timer: 2000,
+                showConfirmButton: false,
+              });
+    // swal("Message Sent!", "Thank you for contacting us.", "success");
+      
+  </script> 
+    <?php
 	echo "<h3>File Sent Successfully.<h3>";
 	// unlink($name); // delete the file after attachment sent.
 	}
