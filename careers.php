@@ -73,10 +73,11 @@
 
         <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
           <div class="col-xl-12 col-lg-12 mt-4">
-            <form method="post" role="form" class="php-email-form">
-            <?php if(!empty($statusMsg)){ ?>
+          <?php if(!empty($statusMsg)){ ?>
     <p class="statusMsg <?php echo !empty($msgClass)?$msgClass:''; ?>"><?php echo $statusMsg; ?></p>
 <?php } ?>
+            <form method="post" role="form" class="php-email-form">
+              
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
