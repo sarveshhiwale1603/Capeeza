@@ -87,7 +87,7 @@
               </div>
               <div class="row mt-3">
                 <div class="col-md-6 form-group">
-                  <input type="tel" name="phone" class="form-control" id="phone" placeholder="Phone No" required>
+                  <input type="tel" name="phone" class="form-control" id="phone" maxlength="10" placeholder="Phone No" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
                   <select class="form-select" name="subject" aria-label="Default select example">
@@ -112,34 +112,12 @@
               <div class="form-group mt-3">
               <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
-               <div class="text-center"><button name="button" type="submit" value="Submit">Send Message</button></div>
+               <div class="text-center mt-3"><button name="button" type="submit" value="Submit">Send Message</button></div>
             </form>
           </div>
 
         </div>
-<!-- 
-        <div style="display:flex; justify-content: center; margin-top:10%;">
-        <form enctype="multipart/form-data" method="POST" action="" style="width: 500px;">
-            <div class="form-group">
-                <input class="form-control" type="text" name="sender_name" placeholder="Your Name" required/>
-            </div>
-            <div class="form-group">
-                <input class="form-control" type="email" name="sender_email" placeholder="Recipient's Email Address" required/>
-            </div>
-            <div class="form-group">
-                <input class="form-control" type="text" name="subject" placeholder="Subject"/>
-            </div>
-            <div class="form-group">
-                <textarea class="form-control" name="message" placeholder="Message"></textarea>
-            </div>
-            <div class="form-group">
-                <input class="form-control" type="file" name="attachment" placeholder="Attachment" required/>
-            </div>
-            <div class="form-group">
-                <input class="btn btn-primary" type="submit" name="button" value="Submit" />
-            </div>           
-        </form>
-    </div> -->
+
 
       </div>
     </section><!-- End Contact Section -->
