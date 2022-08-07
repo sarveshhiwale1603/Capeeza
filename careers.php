@@ -117,7 +117,7 @@
           </div>
 
         </div>
-
+<!-- 
         <div style="display:flex; justify-content: center; margin-top:10%;">
         <form enctype="multipart/form-data" method="POST" action="" style="width: 500px;">
             <div class="form-group">
@@ -139,7 +139,7 @@
                 <input class="btn btn-primary" type="submit" name="button" value="Submit" />
             </div>           
         </form>
-    </div>
+    </div> -->
 
       </div>
     </section><!-- End Contact Section -->
