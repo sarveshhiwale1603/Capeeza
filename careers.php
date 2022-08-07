@@ -174,6 +174,7 @@ if(isset($_POST['button']) && isset($_FILES['attachment']))
 	$subject	 = $_POST["subject"]; //subject for the email
 	$message	 = $_POST["message"]; //body of the email
   $Salary  = $_POST["Salary"];
+  $phone  = $_POST["phone"];
   
   // $sender_name = "sarvesh"; //sender name
 	// $reply_to_email = "sarveshhiwale07@gmail.com"; //sender email, it will be used in "reply-to" header
@@ -181,7 +182,7 @@ if(isset($_POST['button']) && isset($_FILES['attachment']))
 	// $message	 = "message"; //body of the email
   // $Salary  = "10000";
 
-  $details = "Name : ".$sender_name."\n"."Message : ".$message ;
+  $details = "Name : ".$sender_name."\n"."Phone : ".$phone."\n"."Email : ".$reply_to_email."\n"."Qualification : ".$subject."\n"."Message : ".$message ;
 
 	$from_email		 = ''.$reply_to_email.''; //from mail, sender email address
 	$recipient_email = 'sarveshhiwale07@gmail.com'; //recipient email address
