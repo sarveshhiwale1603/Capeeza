@@ -191,8 +191,8 @@ if(isset($_POST['submitBtn'])){
                 $toEmail = 'sarveshhiwale07@gmail.com';
 
                 // Sender
-                $from = 'sender@example.com';
-                $fromName = 'CodexWorld';
+                $from = ''.$email.'';
+                $fromName = ''.$name.'';
                 
                 // Subject
                 $emailSubject = 'Contact Request Submitted by '.$name;
