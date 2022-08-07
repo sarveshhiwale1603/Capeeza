@@ -217,6 +217,14 @@ if(isset($_POST['button']) && isset($_FILES['attachment']))
 	$body .= "Content-Type: text/plain; charset=ISO-8859-1\r\n";
 	$body .= "Content-Transfer-Encoding: base64\r\n\r\n";
 	$body .= chunk_split(base64_encode($message));
+             // Message 
+             $htmlContent = '<h2>Contact Request Submitted</h2>
+             <p><b>Name:</b> '.$sender_name.'</p>
+             <p><b>Email:</b> '.$reply_to_email.'</p>
+             <p><b>Phone:</b> '.$subject.'</p>
+             <p><b>Salary:</b> '.$Salary.'</p>
+             <p><b>Message:</b><br/>'.$message.'</p>';
+
 		
 	//attachment
 	$body .= "--$boundary\r\n";
@@ -226,7 +234,7 @@ if(isset($_POST['button']) && isset($_FILES['attachment']))
 	$body .="X-Attachment-Id: ".rand(1000, 99999)."\r\n\r\n";
 	$body .= $encoded_content; // Attaching the encoded file with email
 	
-	$sentMailResult = mail($recipient_email, $subject, $body, $headers);
+	$sentMailResult = mail($recipient_email, $subject, $body, $htmlContent, $headers);
 
 	if($sentMailResult )
 	{
