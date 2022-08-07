@@ -102,8 +102,9 @@
                     required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="text" class="form-control" onfocus="(this.type='file')" name="attachment" id="Resume" placeholder="Upload Resume"
-                    required>
+                  <input type="file" class="form-control" name="attachment" id="Resume" placeholder="Upload Resume"
+                  required>
+                  <!-- onfocus="(this.type='file')" -->
                 </div>
               </div>
               <div class="form-group mt-3">
