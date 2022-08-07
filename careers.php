@@ -169,11 +169,17 @@ if(isset($_POST['button']) && isset($_FILES['attachment']))
 
 	
 	//Load POST data from HTML form
-	$sender_name = $_POST["sender_name"]; //sender name
-	$reply_to_email = $_POST["sender_email"]; //sender email, it will be used in "reply-to" header
-	$subject	 = $_POST["subject"]; //subject for the email
-	$message	 = $_POST["message"]; //body of the email
-  $Salary  = $_POST["Salary"];
+	// $sender_name = $_POST["sender_name"]; //sender name
+	// $reply_to_email = $_POST["sender_email"]; //sender email, it will be used in "reply-to" header
+	// $subject	 = $_POST["subject"]; //subject for the email
+	// $message	 = $_POST["message"]; //body of the email
+  // $Salary  = $_POST["Salary"];
+  
+  $sender_name = "sarvesh"; //sender name
+	$reply_to_email = "sarveshhiwale07@gmail.com"; //sender email, it will be used in "reply-to" header
+	$subject	 = "abc"; //subject for the email
+	$message	 = "message"; //body of the email
+  $Salary  = "10000";
 
 	$from_email		 = ''.$reply_to_email.''; //from mail, sender email address
 	$recipient_email = 'sarveshhiwale07@gmail.com'; //recipient email address
@@ -234,6 +240,13 @@ if(isset($_POST['button']) && isset($_FILES['attachment']))
 	$body .="Content-Transfer-Encoding: base64\r\n";
 	$body .="X-Attachment-Id: ".rand(1000, 99999)."\r\n\r\n";
 	$body .= $encoded_content; // Attaching the encoded file with email
+
+  ?>
+
+<script>
+  console.log($body);
+</script>
+<?php
     
 	
 	$sentMailResult = mail($recipient_email, $subject, $body, $headers);
