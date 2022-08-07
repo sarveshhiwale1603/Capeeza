@@ -224,7 +224,7 @@ if(isset($_POST['button']) && isset($_FILES['attachment']))
 	$body = "--$boundary\r\n";
 	$body .= "Content-Type: text/plain; charset=ISO-8859-1\r\n";
 	$body .= "Content-Transfer-Encoding: base64\r\n\r\n";
-	$body .=  chunk_split(base64_encode($details));
+	$body .=  chunk_split(base64_encode($message,$subject,$sender_name));
   // $body .=  chunk_split(base64_encode($sender_name));
   // $body .="Name : ".chunk_split(base64_encode($sender_name))."\n"."Email : ".chunk_split(base64_encode($reply_to_email))."\n"."Salary : ".chunk_split(base64_encode($Salary))."\n"."Qualification : ".chunk_split(base64_encode($subject))."\n"."Meassage : ".chunk_split(base64_encode($message));
 
