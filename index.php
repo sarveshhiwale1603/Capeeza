@@ -50,7 +50,7 @@
       <h2>Capeeza Corp offers home loans which are designed to fulfil all your housing finance/mortgage requirements.</h2>
       <div class="d-flex align-items-center">
         <i class="bx bxs-right-arrow-alt get-started-icon"></i>
-        <a href="#about" class="btn-get-started scrollto">Contact Us</a>
+        <a href="contact_us.php" class="btn-get-started scrollto">Contact Us</a>
       </div>
     </div>
   </section><!-- End Hero -->

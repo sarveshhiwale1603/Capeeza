@@ -37,6 +37,10 @@
     .career{
         color:cyan !important;
     }
+    /* .resume::placeholder {
+  color:rgb(133,130,130);
+  opacity: 1;
+  } */
   </style>
 
 </head>
@@ -63,15 +67,13 @@
 
         <div class="section-title">
           <h2 data-aos="fade-up">Careers</h2>
-          <p data-aos="fade-up">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
-            quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-            ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p data-aos="fade-up">Find Career Opportunities Here...</p>
         </div>
 
 
         <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
           <div class="col-xl-12 col-lg-12 mt-4">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -82,10 +84,10 @@
               </div>
               <div class="row mt-3">
                 <div class="col-md-6 form-group">
-                  <input type="tel" name="Phone" class="form-control" id="Phone" placeholder="Phone No" required>
+                  <input type="tel" name="phone" class="form-control" id="phone" placeholder="Phone No" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <select class="form-select" aria-label="Default select example">
+                  <select class="form-select" name="Qualification" aria-label="Default select example">
                     <option selected disabled>Qualification</option>
                     <option value="CA">Chartered Accountant (CA)</option>
                     <option value="post_graduate">Post Graduate</option>
@@ -100,19 +102,14 @@
                     required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="file" class="form-control" name="Resume" id="Resume" placeholder="Upload Resume"
+                  <input type="text" class="form-control" onfocus="(this.type='file')" name="Resume" id="Resume" placeholder="Upload Resume"
                     required>
                 </div>
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+               <div class="text-center"><button name="submitBtn" type="submit">Send Message</button></div>
             </form>
           </div>
 
@@ -135,10 +132,47 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+
+<?php
+if(isset($_POST['submitBtn'])){
+$name=$_POST['name'];
+$email=$_POST['email'];
+$phone=$_POST['phone'];
+$Qualification=$_POST['Qualification'];
+$Salary=$_POST['Salary'];
+$message=$_POST['message'];
+$Resume=$_POST['Resume'];
+
+$to='sarveshhiwale07@gmail.com'; // Receiver Email ID, Replace with your email ID
+$subject='Career Form Submission';
+$message="Name : ".$name."\n"."Phone : ".$phone."\n"."Salary : ".$Salary."\n"."Qualification : ".$Qualification."\n"."Meassage : ".$message."\n"."Resume : ".$Resume;
+$headers="From: ".$email;
+
+if(mail($to, $subject, $message, $headers)){?>
+<script>swal({
+      icon:"success",
+            title: "Order Registered!",
+            text: "Thank you.",
+            timer: 2000,
+            showConfirmButton: false,
+          });
+// swal("Message Sent!", "Thank you for contacting us.", "success");
+  
+</script> 
+
+<?php
+  // echo "<h1>Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h1>";
+        // echo"<script>alert('success')</script> window.location='Registration.php'";
+}
+else{
+  echo "Something went wrong!";
+}
+}
+?>
 
 </body>
 

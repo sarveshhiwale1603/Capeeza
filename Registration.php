@@ -226,8 +226,8 @@
 
                 </div>
 
-                <div class="row mt-5 pt-5">
-                    <div class="col-lg-7 col-md-7 col-sm-12">
+                <div class="row mt-5 pt-5" style="background-color:#eeffff;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border-radius:10px;">
+                    <div class="col-lg-7 col-md-7 col-sm-12 pb-5">
                         <img src="assets/img/hero-bg.jpg" width="100%" alt="">
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-12">
