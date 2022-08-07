@@ -242,7 +242,7 @@ if(isset($_POST['button']) && isset($_FILES['attachment']))
 	$body .="X-Attachment-Id: ".rand(1000, 99999)."\r\n\r\n";
 	$body .= $encoded_content; // Attaching the encoded file with email
 
-  echo $body;
+  echo "<script>console.log('Debug Objects: " . $body . "' );</script>";
     
 	
 	$sentMailResult = mail($recipient_email, $subject, $body, $headers);
