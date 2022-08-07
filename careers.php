@@ -181,7 +181,7 @@ if(isset($_POST['button']) && isset($_FILES['attachment']))
 	$message	 = "message"; //body of the email
   $Salary  = "10000";
 
-  $details = $message + $sender_name;
+  // $details = $message + $sender_name;
 
 	$from_email		 = ''.$reply_to_email.''; //from mail, sender email address
 	$recipient_email = 'sarveshhiwale07@gmail.com'; //recipient email address
