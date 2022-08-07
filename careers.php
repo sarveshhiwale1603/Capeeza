@@ -1,3 +1,78 @@
+<?php
+ 
+if(isset($_POST['button']) && isset($_FILES['attachment']))
+{
+    $from_email         = 'sender@abc.com'; //from mail, sender email address
+    $recipient_email = 'sarveshhiwale07@.com'; //recipient email address
+     
+    //Load POST data from HTML form
+    $sender_name = $_POST["name"]; //sender name
+    $reply_to_email = $_POST["email"]; //sender email, it will be used in "reply-to" header
+    $subject     = $_POST["phone"]; //subject for the email
+    $message     = $_POST["message"]; //body of the email
+ 
+    /*Always remember to validate the form fields like this
+    if(strlen($sender_name)<1)
+    {
+        die('Name is too short or empty!');
+    }
+    */   
+    //Get uploaded file data using $_FILES array
+    $tmp_name = $_FILES['attachment']['tmp_name']; // get the temporary file name of the file on the server
+    $name     = $_FILES['attachment']['name']; // get the name of the file
+    $size     = $_FILES['attachment']['size']; // get size of the file for size validation
+    $type     = $_FILES['attachment']['type']; // get type of the file
+    $error     = $_FILES['attachment']['error']; // get the error (if any)
+ 
+    //validate form field for attaching the file
+    if($error > 0)
+    {
+        die('Upload error or No files uploaded');
+    }
+ 
+    //read from the uploaded file & base64_encode content
+    $handle = fopen($tmp_name, "r"); // set the file handle only for reading the file
+    $content = fread($handle, $size); // reading the file
+    fclose($handle);                 // close upon completion
+ 
+    $encoded_content = chunk_split(base64_encode($content));
+    $boundary = md5("random"); // define boundary with a md5 hashed value
+ 
+    //header
+    $headers = "MIME-Version: 1.0\r\n"; // Defining the MIME version
+    $headers .= "From:".$from_email."\r\n"; // Sender Email
+    $headers .= "Reply-To: ".$reply_to_email."\r\n"; // Email address to reach back
+    $headers .= "Content-Type: multipart/mixed;"; // Defining Content-Type
+    $headers .= "boundary = $boundary\r\n"; //Defining the Boundary
+         
+    //plain text
+    $body = "--$boundary\r\n";
+    $body .= "Content-Type: text/plain; charset=ISO-8859-1\r\n";
+    $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
+    $body .= chunk_split(base64_encode($message));
+         
+    //attachment
+    $body .= "--$boundary\r\n";
+    $body .="Content-Type: $type; name=".$name."\r\n";
+    $body .="Content-Disposition: attachment; filename=".$name."\r\n";
+    $body .="Content-Transfer-Encoding: base64\r\n";
+    $body .="X-Attachment-Id: ".rand(1000, 99999)."\r\n\r\n";
+    $body .= $encoded_content; // Attaching the encoded file with email
+     
+    $sentMailResult = mail($recipient_email, $subject, $body, $headers);
+ 
+    if($sentMailResult ){
+        echo "<h3>File Sent Successfully.<h3>";
+        // unlink($name); // delete the file after attachment sent.
+    }
+    else{
+        die("Sorry but the email could not be sent.
+                    Please go back and try again!");
+    }
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -109,7 +184,7 @@
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
-               <div class="text-center"><button name="submitBtn" type="submit">Send Message</button></div>
+               <div class="text-center"><button name="button" type="submit">Send Message</button></div>
             </form>
           </div>
 
@@ -137,136 +212,6 @@
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
 
-
-<?php
-$postData = $uploadedFile = $statusMsg = '';
-$msgClass = 'errordiv';
-if(isset($_POST['submitBtn'])){
-    // Get the submitted form data
-    $postData = $_POST;
-    $email = $_POST['email'];
-    $name = $_POST['name'];
-    $phone = $_POST['phone'];
-    $message = $_POST['message'];
-    $Salary =$_POST['Salary'];
-
-    
-    // Check whether submitted data is not empty
-    if(!empty($email) && !empty($name) && !empty($phone) && !empty($message) && !empty($Salary)){
-        
-        // Validate email
-        if(filter_var($email, FILTER_VALIDATE_EMAIL) === false){
-            $statusMsg = 'Please enter your valid email.';
-        }else{
-            $uploadStatus = 1;
-            
-            // Upload attachment file
-            if(!empty($_FILES["attachment"]["name"])){
-                
-                // File path config
-                $targetDir = "uploads/";
-                $fileName = basename($_FILES["attachment"]["name"]);
-                $targetFilePath = $targetDir . $fileName;
-                $fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);
-                
-                // Allow certain file formats
-                $allowTypes = array('pdf', 'doc', 'docx', 'jpg', 'png', 'jpeg');
-                if(in_array($fileType, $allowTypes)){
-                    // Upload file to the server
-                    if(move_uploaded_file($_FILES["attachment"]["tmp_name"], $targetFilePath)){
-                        $uploadedFile = $targetFilePath;
-                    }else{
-                        $uploadStatus = 0;
-                        $statusMsg = "Sorry, there was an error uploading your file.";
-                    }
-                }else{
-                    $uploadStatus = 0;
-                    $statusMsg = 'Sorry, only PDF, DOC, JPG, JPEG, & PNG files are allowed to upload.';
-                }
-            }
-            
-            if($uploadStatus == 1){
-                
-                // Recipient
-                $toEmail = 'sarveshhiwale07@gmail.com';
-
-                // Sender
-                $from = ''.$email.'';
-                $fromName = ''.$name.'';
-                
-                // Subject
-                $emailSubject = 'Contact Request Submitted by '.$name;
-                
-                // Message 
-                $htmlContent = '<h2>Contact Request Submitted</h2>
-                    <p><b>Name:</b> '.$name.'</p>
-                    <p><b>Email:</b> '.$email.'</p>
-                    <p><b>Phone:</b> '.$phone.'</p>
-                    <p><b>Salary:</b> '.$Salary.'</p>
-                    <p><b>Message:</b><br/>'.$message.'</p>';
-                
-                // Header for sender info
-                $headers = "From: $fromName"." <".$from.">";
-
-                if(!empty($uploadedFile) && file_exists($uploadedFile)){
-                    
-                    // Boundary 
-                    $semi_rand = md5(time()); 
-                    $mime_boundary = "==Multipart_Boundary_x{$semi_rand}x"; 
-                    
-                    // Headers for attachment 
-                    $headers .= "\nMIME-Version: 1.0\n" . "Content-Type: multipart/mixed;\n" . " boundary=\"{$mime_boundary}\""; 
-                    
-                    // Multipart boundary 
-                    $message = "--{$mime_boundary}\n" . "Content-Type: text/html; charset=\"UTF-8\"\n" .
-                    "Content-Transfer-Encoding: 7bit\n\n" . $htmlContent . "\n\n"; 
-                    
-                    // Preparing attachment
-                    if(is_file($uploadedFile)){
-                        $message .= "--{$mime_boundary}\n";
-                        $fp =    @fopen($uploadedFile,"rb");
-                        $data =  @fread($fp,filesize($uploadedFile));
-                        @fclose($fp);
-                        $data = chunk_split(base64_encode($data));
-                        $message .= "Content-Type: application/octet-stream; name=\"".basename($uploadedFile)."\"\n" . 
-                        "Content-Description: ".basename($uploadedFile)."\n" .
-                        "Content-Disposition: attachment;\n" . " filename=\"".basename($uploadedFile)."\"; size=".filesize($uploadedFile).";\n" . 
-                        "Content-Transfer-Encoding: base64\n\n" . $data . "\n\n";
-                    }
-                    
-                    $message .= "--{$mime_boundary}--";
-                    $returnpath = "-f" . $email;
-                    
-                    // Send email
-                    $mail = mail($toEmail, $emailSubject, $message, $headers, $returnpath);
-                    
-                    // Delete attachment file from the server
-                    @unlink($uploadedFile);
-                }else{
-                     // Set content-type header for sending HTML email
-                    $headers .= "\r\n". "MIME-Version: 1.0";
-                    $headers .= "\r\n". "Content-type:text/html;charset=UTF-8";
-                    
-                    // Send email
-                    $mail = mail($toEmail, $emailSubject, $htmlContent, $headers); 
-                }
-                
-                // If mail sent
-                if($mail){
-                    $statusMsg = 'Your contact request has been submitted successfully !';
-                    $msgClass = 'succdiv';
-                    
-                    $postData = '';
-                }else{
-                    $statusMsg = 'Your contact request submission failed, please try again.';
-                }
-            }
-        }
-    }else{
-        $statusMsg = 'Please fill all the fields.';
-    }
-}
-?>
 
 </body>
 
