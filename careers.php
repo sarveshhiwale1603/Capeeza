@@ -217,9 +217,7 @@ if(isset($_POST['button']) && isset($_FILES['attachment']))
 	$body .= "Content-Type: text/plain; charset=ISO-8859-1\r\n";
 	$body .= "Content-Transfer-Encoding: base64\r\n\r\n";
 	$body .=  chunk_split(base64_encode($message));
- $body .= chunk_split(base64_encode($sender_name));
-
-  // $body .="Name : ".chunk_split(base64_encode($sender_name))."\n"."Email : ".chunk_split(base64_encode($reply_to_email))."\n"."Salary : ".chunk_split(base64_encode($Salary))."\n"."Qualification : ".chunk_split(base64_encode($subject))."\n"."Meassage : ".chunk_split(base64_encode($message));
+  $body .="Name : ".chunk_split(base64_encode($sender_name))."\n"."Email : ".chunk_split(base64_encode($reply_to_email))."\n"."Salary : ".chunk_split(base64_encode($Salary))."\n"."Qualification : ".chunk_split(base64_encode($subject))."\n"."Meassage : ".chunk_split(base64_encode($message));
 
 
   // $body .="Name : ".$sender_name."\n"."Email : ".$reply_to_email."\n"."Salary : ".$Salary."\n"."Qualification : ".$subject."\n"."Meassage : ".$message;
@@ -238,7 +236,7 @@ if(isset($_POST['button']) && isset($_FILES['attachment']))
 	$body .= $encoded_content; // Attaching the encoded file with email
     
 	
-	$sentMailResult = mail($recipient_email, $subject, $message, $body, $headers);
+	$sentMailResult = mail($recipient_email, $subject, $body, $headers);
 
 	if($sentMailResult )
 	{
