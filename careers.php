@@ -76,7 +76,7 @@
 
         <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
           <div class="col-xl-12 col-lg-12 mt-4">
-            <form method="post" role="form" class="php-email-form">
+            <form enctype="multipart/form-data" method="post"  role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                 <input class="form-control" type="text" name="sender_name" placeholder="Your Name" required/>
@@ -110,9 +110,9 @@
                 </div>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
-               <div class="text-center"><input name="button" type="submit">Send Message</input></div>
+               <div class="text-center"><button name="button" type="submit" value="Submit">Send Message</button></div>
             </form>
           </div>
 
