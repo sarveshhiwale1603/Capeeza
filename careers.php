@@ -74,15 +74,15 @@
         </div>
 
 
-        <!-- <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
           <div class="col-xl-12 col-lg-12 mt-4">
             <form method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                <input class="form-control" type="text" name="sender_name" placeholder="Your Name" required/>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                <input class="form-control" type="email" name="sender_email" placeholder="Your Email" required/>
                 </div>
               </div>
               <div class="row mt-3">
@@ -90,7 +90,7 @@
                   <input type="tel" name="phone" class="form-control" id="phone" placeholder="Phone No" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <select class="form-select" name="Qualification" aria-label="Default select example">
+                  <select class="form-select" name="subject" aria-label="Default select example">
                     <option selected disabled>Qualification</option>
                     <option value="CA">Chartered Accountant (CA)</option>
                     <option value="post_graduate">Post Graduate</option>
@@ -112,11 +112,12 @@
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
-               <div class="text-center"><button name="button" type="submit">Send Message</button></div>
+               <div class="text-center"><input name="button" type="submit">Send Message</input></div>
             </form>
           </div>
 
-        </div> -->
+        </div>
+
         <div style="display:flex; justify-content: center; margin-top:10%;">
         <form enctype="multipart/form-data" method="POST" action="" style="width: 500px;">
             <div class="form-group">
@@ -173,6 +174,8 @@ if(isset($_POST['button']) && isset($_FILES['attachment']))
 	$reply_to_email = $_POST["sender_email"]; //sender email, it will be used in "reply-to" header
 	$subject	 = $_POST["subject"]; //subject for the email
 	$message	 = $_POST["message"]; //body of the email
+  $Salary  = $_POST["Salary"];
+
 
 	/*Always remember to validate the form fields like this
 	if(strlen($sender_name)<1)
