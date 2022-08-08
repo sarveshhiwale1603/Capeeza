@@ -137,7 +137,7 @@
                   loans,import-export, company formation in India, Business taxation, corporate compliance, starting
                   business in India, registration of foreign companies, taxation of expatriates etc. in Pune and Navi
                   Mumbai.</p>
-                <div class="read-more"><a href="about_us.php"><i class="bi bi-arrow-right"></i> Read More</a></div>
+                <div class="read-more justify-content-end"><a href="about_us.php"><i class="bi bi-arrow-right"></i> Read More</a></div>
               </div>
             </div>
           </div>

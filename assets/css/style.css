@@ -1304,43 +1304,6 @@ section {
 }
 
 
-.portfolio .php-email-form input,
-.portfolio .php-email-form textarea,
-.portfolio .php-email-form select  {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.portfolio .php-email-form input:focus,
-.portfolio .php-email-form textarea:focus,
-.portfolio .php-email-form select:focus  {
-  border-color: #ff5821;
-}
-
-.portfolio .php-email-form input {
-  padding: 10px 15px;
-}
-.portfolio .php-email-form select{
-  padding: 10px 15px;
-}
-
-.portfolio .php-email-form textarea {
-  padding: 12px 15px;
-}
-
-.portfolio .php-email-form button[type=submit] {
-  background: #ff5821;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-}
-
-.portfolio .php-email-form button[type=submit]:hover {
-  background: #ff7e54;
-}
-
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/

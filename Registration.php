@@ -36,6 +36,7 @@
             justify-content: center;
             /* border-top: 5px solid #59CCBA; */
             border-radius: 15px;
+            box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.1);
         }
 
         h5 {
@@ -61,6 +62,52 @@
         border-radius:0px !important;
     }
     }
+
+    
+
+ .php-email-form input,
+ .php-email-form textarea,
+ .php-email-form select  {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+ .php-email-form input:focus,
+ .php-email-form textarea:focus,
+ .php-email-form select:focus  {
+  border-color: #ff5821;
+}
+
+ .php-email-form input {
+  padding: 10px 15px;
+}
+ .php-email-form select{
+  padding: 10px 15px;
+}
+
+ .php-email-form textarea {
+  padding: 12px 15px;
+}
+
+ .php-email-form button[type=submit] {
+  background: #ff5821;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+ .php-email-form button[type=submit]:hover {
+  background: #ff7e54;
+}
+
+.blue:hover {
+    /* background-color:#ff5821 !important; */
+    color:#59CCBA;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 </style>
 
 </head>
@@ -102,7 +149,7 @@
                 <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-app">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5>GST Registration</h5>
                         </div>
 
@@ -110,155 +157,164 @@
 
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5> Pan & Tan</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5>Copyrights</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5>Logo/Trademark Registration</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5>Patents</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5>FSSAI</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5>Liquor Licence</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5>PF & ESIC</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5>Maharera Registration</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5>Professional Tax Registration</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5>Udyam / MSME Registration</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5>ISO Registration</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5>Digital Signatur</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5>NGO/Trust Registration</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5>Shop Act</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5>Arm Licence</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5>SSI Registration</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5>E-Way Bill Registration</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5>Govt. Contractor Registration</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5>Labour Licence</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5>Pollution Certificate</h5>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
-                        <div class="blue card shadow text-center ">
+                        <div class="blue card text-center ">
                             <h5>Fire NOC</h5>
                         </div>
                     </div>
 
                 </div>
 
-                <div class="row mt-5" style="background-color:#feffff;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border-radius:10px;">
-                    <div class="col-lg-7 col-md-7 col-sm-12 formImage" style="padding-left: 0px;">
-                        <img src="assets/img/hero-bg.webp" width="100%" alt="" style="border-top-left-radius:10px; border-bottom-left-radius:10px;">
+              
+
+            </div>
+
+        </section><!-- End Portfolio Section -->
+        
+        <div class="row  mt-5 mx-0" style="background: url(assets/img/hero-bg.webp) left center; background-size: cover; position: relative; width:100%; padding-right: 15px;" >
+        <div class="row container">
+                    <div class="col-lg-8 col-md-8 col-sm-12 formImage">
+                        <!-- <img src="assets/img/hero-bg.webp" width="100%" alt="" style="border-top-left-radius:10px; border-bottom-left-radius:10px;"> -->
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-12 pt-4">
+                    <div class="col-lg-4 col-md-4 col-sm-12 pt-4 my-4" style="background-color:#feffff;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
                         <form  method="post" role="form" class="php-email-form">
                             <div class="row">
-                                <div class="col-md-6 form-group">
+                                <div class="row text-center">
+                                    <h5>Register Here</h5>
+                                </div>
+                                <div class="col-md-12 form-group mt-3">
                                     <input type="text" name="name" class="form-control" id="name"
                                         placeholder="Your Name" required>
                                 </div>
-                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <div class="col-md-12 form-group mt-3">
                                     <input type="email" class="form-control" name="email" id="email"
                                         placeholder="Your Email" required>
                                 </div>
-                            </div>
-                            <div class="row mt-3">
-                                <div class="col-md-6 form-group">
+                            
+                                <div class="col-md-12 form-group mt-3">
                                     <input type="tel" name="phone" class="form-control" id="Phone"
                                         placeholder="Phone No" maxlength="10" required>
                                 </div>
-                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <div class="col-md-12 form-group mt-3">
                                     <select class="form-select" name="services" aria-label="Default select example">
                                         <option selected disabled>Services</option>
                                         <option value="GST_Registration">GST Registration</option>
@@ -290,14 +346,11 @@
                                 <textarea class="form-control" name="address" rows="1" placeholder="Address"
                                     required></textarea>
                             </div>
-                            <div class="text-center my-3"><button type="submit" name="submit1" >Send Message</button></div>
+                            <div class="text-center my-5"><button type="submit" name="submit1" >Send Message</button></div>
                         </form>
                     </div>
+                    </div>
                 </div>
-
-            </div>
-
-        </section><!-- End Portfolio Section -->
 
 
     </main><!-- End #main -->
