@@ -36,6 +36,11 @@
         .contactus{
         color:cyan !important;
     }
+    @media (max-width: 768px) {
+        .contactus{
+      color:#ff5821 !important;
+    } 
+    }
     </style>
 
 </head>

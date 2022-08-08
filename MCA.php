@@ -32,10 +32,15 @@
     
     <style>
      .compli, .mca{
-        color: #ff5821 !important;
+         color: #ff5821 !important;
     }
     .Service{
         color:cyan !important;
+    }
+    @media (max-width: 768px) {
+        .Service{
+      color:#ff5821 !important;
+    } 
     }
 </style>
 </head>

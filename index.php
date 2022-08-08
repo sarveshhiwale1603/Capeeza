@@ -33,6 +33,11 @@
     .home1{
       color:cyan !important;
     }
+    @media (max-width: 768px) {
+        .home1{
+      color:#ff5821 !important;
+    } 
+    }
   </style>
 
 </head>

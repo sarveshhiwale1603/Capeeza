@@ -40,6 +40,11 @@
     .career{
         color:cyan !important;
     }
+    @media (max-width: 768px) {
+        .career{
+      color:#ff5821 !important;
+    } 
+    }
     /* .resume::placeholder {
   color:rgb(133,130,130);
   opacity: 1;

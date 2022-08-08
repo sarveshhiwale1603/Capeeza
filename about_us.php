@@ -33,7 +33,11 @@
     .aboutUs{
       color:cyan !important;
     }
-   
+    @media (max-width: 768px) {
+        .aboutUs{
+      color:#ff5821 !important;
+    } 
+    }
   </style>
 </head>
 

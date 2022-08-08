@@ -45,10 +45,15 @@
     </style>
       <style>
      .regi{
-        color: #ff5821 !important;
+         color: #ff5821 !important;
     }
     .Service{
         color:cyan !important;
+    }
+    @media (max-width: 768px) {
+        .Service{
+      color:#ff5821 !important;
+    } 
     }
 </style>
 
@@ -226,11 +231,11 @@
 
                 </div>
 
-                <div class="row mt-5 pt-5" style="background-color:#eeffff;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border-radius:10px;">
-                    <div class="col-lg-7 col-md-7 col-sm-12 pb-5">
-                        <img src="assets/img/hero-bg.jpg" width="100%" alt="">
+                <div class="row mt-5" style="background-color:#feffff;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border-radius:10px;">
+                    <div class="col-lg-7 col-md-7 col-sm-12 pl-0" style="padding-left: 0px;">
+                        <img src="assets/img/hero-bg.jpg" width="100%" alt="" style="border-top-left-radius:10px; border-bottom-left-radius:10px;">
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-12">
+                    <div class="col-lg-5 col-md-5 col-sm-12 pt-4">
                         <form  method="post" role="form" class="php-email-form">
                             <div class="row">
                                 <div class="col-md-6 form-group">
@@ -259,8 +264,7 @@
                                         <option value="Liquor_Licence">Liquor Licence</option>
                                         <option value="PF_&_ESIC"> PF & ESIC</option>
                                         <option value="Maharera_Registration">Maharera Registration</option>
-                                        <option value="Professional_Tax_Registration">Professional Tax Registration
-                                        </option>
+                                        <option value="Professional_Tax_Registration">Professional Tax Registration</option>
                                         <option value="Udyam/MSME_Registration">Udyam / MSME Registration</option>
                                         <option value="ISO_Registration">ISO Registration</option>
                                         <option value="Digital_Signatur">Digital Signature</option>
@@ -269,12 +273,10 @@
                                         <option value="Arm_Licence">Arm Licence</option>
                                         <option value="SSI_Registration">SSI Registration</option>
                                         <option value="E-Way_Bill_Registration">E-Way Bill Registration</option>
-                                        <option value="Govt._Contractor_Registration">Govt. Contractor Registration
-                                        </option>
+                                        <option value="Govt._Contractor_Registration">Govt. Contractor Registration</option>
                                         <option value="Labour_Licence">Graduate</option>
                                         <option value="Pollution_Certificate">Graduate</option>
                                         <option value="Fire_NOC">Graduate</option>
-
                                     </select>
                                 </div>
                             </div>
