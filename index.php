@@ -125,7 +125,7 @@
 
 
     <!-- ======= Values Section ======= -->
-    <section id="values" class="values">
+    <section id="values" class="values section-bg">
       <div class="container">
 
         <div class="row">
@@ -184,6 +184,29 @@
 
       </div>
     </section><!-- End Values Section -->
+
+    
+ <!-- ======= Clients Section ======= -->
+ <section id="clients" class="clients">
+  <div class="container" data-aos="fade-up">
+
+    <div class="clients-slider swiper">
+      <div class="swiper-wrapper align-items-center">
+        <div class="swiper-slide"><img src="assets/images/clients/Excel-group.webp" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="assets/images/clients/healthy-trends.webp" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="assets/images/clients/Advik.webp" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="assets/images/clients/APMC.webp" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="assets/images/clients/Kedar-Masale.webp" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="assets/images/clients/WAFT.webp" class="img-fluid" alt=""></div>
+        <!-- <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div> -->
+        <!-- <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div> -->
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+</section><!-- End Clients Section -->
+
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
@@ -302,27 +325,6 @@
 
       </div>
     </section><!-- End Testimonials Section -->
-
- <!-- ======= Clients Section ======= -->
- <section id="clients" class="clients">
-  <div class="container" data-aos="fade-up">
-
-    <div class="clients-slider swiper">
-      <div class="swiper-wrapper align-items-center">
-        <div class="swiper-slide"><img src="assets/images/clients/Excel-group.webp" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="assets/images/clients/healthy-trends.webp" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="assets/images/clients/Advik.webp" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="assets/images/clients/APMC.webp" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="assets/images/clients/Kedar-Masale.webp" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="assets/images/clients/WAFT.webp" class="img-fluid" alt=""></div>
-        <!-- <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div> -->
-        <!-- <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div> -->
-      </div>
-      <div class="swiper-pagination"></div>
-    </div>
-
-  </div>
-</section><!-- End Clients Section -->
 
   </main><!-- End #main -->
 

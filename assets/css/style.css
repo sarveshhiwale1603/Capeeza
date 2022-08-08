@@ -938,13 +938,14 @@ section {
 .clients .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: rgba(26, 68, 71, 0.5);
   opacity: 1;
-  border: 1px solid #ff5821;
+  border: 1px solid #59CCBA;
+
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ff5821;
+  background-color: #59CCBA;
 }
 
 .clients .swiper-slide img {
@@ -1179,6 +1180,7 @@ section {
   height: 12px;
   background-color: rgba(26, 68, 71, 0.5);
   opacity: 1;
+  border: 1px solid #59CCBA;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
@@ -1192,7 +1194,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# Portfolio  
 --------------------------------------------------------------*/
 .portfolio #portfolio-flters {
   padding: 0;
