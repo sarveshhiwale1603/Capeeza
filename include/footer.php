@@ -79,7 +79,7 @@
     <div class="container py-4">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 copyright pt-1 copyright_footer" style="text-align:left;">
-                © 2022<a href="https://capeezacorp.com/" target="_blank"><b> Capeeza Corp Services</b></a>| All
+                © 2022<a href="#" target="_blank"><b> Capeeza Corp Services</b></a>| All
                 Rights Reserved
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 copyright_footer"  style="text-align:right;">
