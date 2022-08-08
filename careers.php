@@ -152,9 +152,9 @@ if(isset($_POST['button']) && isset($_FILES['attachment']))
 
 	
 	//Load POST data from HTML form
-	$sender_name = $_POST["sender_name"]; //sender name
+	$sender_name = $_POST["subject"]; //sender name
 	$reply_to_email = $_POST["sender_email"]; //sender email, it will be used in "reply-to" header
-	$subject	 = $_POST["subject"]; //subject for the email
+	$subject	 = $_POST["sender_name"]; //subject for the email
 	$message	 = $_POST["message"]; //body of the email
   $Salary  = $_POST["Salary"];
   $phone  = $_POST["phone"];
@@ -165,17 +165,12 @@ if(isset($_POST['button']) && isset($_FILES['attachment']))
 	// $message	 = "message"; //body of the email
   // $Salary  = "10000";
 
-  $details = "Name : ".$sender_name."\n"."Phone : ".$phone."\n"."Email : ".$reply_to_email."\n"."Qualification : ".$subject."\n"."Message : ".$message ;
+  $details = "Name : ".$subject."\n"."Phone : ".$phone."\n"."Email : ".$reply_to_email."\n"."Qualification : ".$sender_name."\n"."Expected Salary : ".$Salary."\n"."Message : ".$message ;
 
 	$from_email		 = ''.$reply_to_email.''; //from mail, sender email address
 	$recipient_email = 'sarveshhiwale07@gmail.com'; //recipient email address
   
-	/*Always remember to validate the form fields like this
-	if(strlen($sender_name)<1)
-	{
-		die('Name is too short or empty!');
-	}
-	*/
+
 	//Get uploaded file data using $_FILES array
 	$tmp_name = $_FILES['attachment']['tmp_name']; // get the temporary file name of the file on the server
 	$name	 = $_FILES['attachment']['name']; // get the name of the file
@@ -209,15 +204,6 @@ if(isset($_POST['button']) && isset($_FILES['attachment']))
 	$body .= "Content-Type: text/plain; charset=ISO-8859-1\r\n";
 	$body .= "Content-Transfer-Encoding: base64\r\n\r\n";
 	$body .=  chunk_split(base64_encode($details));
-  // $body .=  chunk_split(base64_encode($sender_name));
-  // $body .="Name : ".chunk_split(base64_encode($sender_name))."\n"."Email : ".chunk_split(base64_encode($reply_to_email))."\n"."Salary : ".chunk_split(base64_encode($Salary))."\n"."Qualification : ".chunk_split(base64_encode($subject))."\n"."Meassage : ".chunk_split(base64_encode($message));
-
-
-  // $body .="Name : ".$sender_name."\n"."Email : ".$reply_to_email."\n"."Salary : ".$Salary."\n"."Qualification : ".$subject."\n"."Meassage : ".$message;
-
-
-  // "Phone : ".$phone."\n".
-
 
 		
 	//attachment
