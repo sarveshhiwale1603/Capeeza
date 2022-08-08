@@ -17,11 +17,11 @@
                         <a style="color:#fff" href="mailto:info@capeezacorp.com"> info@capeezacorp.com</a></b><br>
                     </p>
                     <div class="social-links text-start text-lg-left pt-3 mt-4 pt-lg-0">
-                        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                        <a href="#" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+                        <a href="https://www.facebook.com/Capeeza-Corp-Services-113344597510715/" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+                        <a href="#" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+                        <a href="#" class="google-plus" target="_blank"><i class="bx bxl-skype"></i></a>
+                        <a href="#" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
                     </div>
                 </div>
 
@@ -44,15 +44,15 @@
 
                     <ul>
                         <li><b>Manchar</b></li>
-                        <li><i class='bx bx-map'></i> <a href="#">Trimurti pride, Below Bank of Maharashtra, Manchar,
+                        <li><i class='bx bx-map'></i> <a href="#" target="">Trimurti pride, Below Bank of Maharashtra, Manchar,
                                 Pune - 410 503</a></li>
                         <li><b>Pune</b></li>
-                        <li><i class='bx bx-map'></i> <a href="#">Kunal Icon Road, Pimple Saudagar, Pune - 411 027</a>
+                        <li><i class='bx bx-map'></i> <a href="#" target="">Kunal Icon Road, Pimple Saudagar, Pune - 411 027</a>
                         </li>
                         <li><b>Navi Mumbai</b></li>
-                        <li><i class='bx bx-map'></i> <a href="#">03, Sai Villa, Plot No. 75, Sector - 20, Ulwe, Navi
+                        <li><i class='bx bx-map'></i> <a href="#" target="">03, Sai Villa, Plot No. 75, Sector - 20, Ulwe, Navi
                                 Mumbai - 410 206</a></li>
-                        <li><i class='bx bx-map'></i> <a href="#">Office No. 69, Thapar Complex, Plot No. 51, Sec - 15,
+                        <li><i class='bx bx-map'></i> <a href="https://goo.gl/maps/U61TZtp9DdT6ADbPA" target="_blank">Office No. 69, Thapar Complex, Plot No. 51, Sec - 15,
                                 CBD Belapur, Navi Mumbai - 400 614.</a></li>
 
                     </ul>

@@ -114,7 +114,7 @@
         </section><!-- End Contact Section -->
         <div class="map mt-2 pt-5 mb-0 pb-0">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.113924035854!2d73.00190661473007!3d19.102657487072616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c0d74cf50ffd%3A0x4518813cd4938517!2sUNIQUE%20PATHOLOGY%20LABORATORY!5e0!3m2!1sen!2sin!4v1659340468888!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.2354699299212!2d73.0306370143364!3d19.009342959005433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3a9bec8571d%3A0xe02b1a52eb7352f2!2sThapar%20Complex%2C%20Sector%2015%2C%20CBD%20Belapur%2C%20Navi%20Mumbai%2C%20Maharashtra%20400614!5e0!3m2!1sen!2sin!4v1659942492931!5m2!1sen!2sin"
                 width="100%" height="350px" frameborder="0" style="border:0" allowfullscreen="" data-aos="fade-up"
                 data-aos-delay="300"></iframe>
         </div>
