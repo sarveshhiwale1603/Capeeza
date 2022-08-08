@@ -965,7 +965,7 @@ section {
   margin-top: 35px;
   margin-bottom: 25px;
   text-align: center;
-  height: 250px;
+  height: 265px;
   position: relative;
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -2477,5 +2477,11 @@ section {
   background: #ff4000;
   color: #fff;
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .copyright_footer{
+    text-align: center !important;
+  }
 }
 

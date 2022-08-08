@@ -78,11 +78,11 @@
     </div>
     <div class="container py-4">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 copyright text-start pt-1 copyright_footer">
+            <div class="col-lg-6 col-md-6 col-sm-12 copyright pt-1 copyright_footer" style="text-align:left;">
                 © 2022<a href="https://capeezacorp.com/" target="_blank"><b> Capeeza Corp Services</b></a>| All
                 Rights Reserved
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 text-end copyright_footer">
+            <div class="col-lg-6 col-md-6 col-sm-12 copyright_footer"  style="text-align:right;">
                 Designed by <a href="https://tectignis.in" target="_blank"><b>Tectignis IT Solutions.</b></a>
             </div>
         </div>
