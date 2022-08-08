@@ -54,6 +54,12 @@
         .Service{
       color:#ff5821 !important;
     } 
+    .formImage{
+        padding-left:10px !important;
+    }
+    .formImage img{
+        border-radius:0px !important;
+    }
     }
 </style>
 
@@ -232,7 +238,7 @@
                 </div>
 
                 <div class="row mt-5" style="background-color:#feffff;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border-radius:10px;">
-                    <div class="col-lg-7 col-md-7 col-sm-12 pl-0" style="padding-left: 0px;">
+                    <div class="col-lg-7 col-md-7 col-sm-12 formImage" style="padding-left: 0px;">
                         <img src="assets/img/hero-bg.jpg" width="100%" alt="" style="border-top-left-radius:10px; border-bottom-left-radius:10px;">
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-12 pt-4">
