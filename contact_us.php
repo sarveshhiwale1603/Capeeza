@@ -52,7 +52,7 @@
 
     <!-- ======= Hero Section ======= -->
     <section id="hero2" class="d-flex flex-column justify-content-center align-items-center"
-        style="background: url('assets/img/hero-bg.jpg') center center;">
+        style="background: url('assets/img/hero-bg.webp') center center;">
         <div class="container" data-aos="fade-in">
             <h1>Contact Us</h1>
         </div>

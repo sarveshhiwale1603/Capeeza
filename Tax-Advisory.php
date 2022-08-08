@@ -51,7 +51,7 @@
 
     <!-- ======= Hero Section ======= -->
     <section id="hero2" class="d-flex flex-column justify-content-center align-items-center"
-        style="background: url('assets/img/hero-bg.jpg') center center;">
+        style="background: url('assets/img/hero-bg.webp') center center;">
         <div class="container" data-aos="fade-in">
             <h2>Free & Impartial Advice!</h2>
             <h1>Tax Advisory Services <br> and Tax Filings</h1>

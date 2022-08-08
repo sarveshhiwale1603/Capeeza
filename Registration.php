@@ -72,7 +72,7 @@
 
     <!-- ======= Hero Section ======= -->
     <section id="hero2" class="d-flex flex-column justify-content-center align-items-center"
-        style="background: url('assets/img/hero-bg.jpg') center center;">
+        style="background: url('assets/img/hero-bg.webp') center center;">
         <div class="container" data-aos="fade-in">
             <h1>Registration</h1>
         </div>
@@ -239,7 +239,7 @@
 
                 <div class="row mt-5" style="background-color:#feffff;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); border-radius:10px;">
                     <div class="col-lg-7 col-md-7 col-sm-12 formImage" style="padding-left: 0px;">
-                        <img src="assets/img/hero-bg.jpg" width="100%" alt="" style="border-top-left-radius:10px; border-bottom-left-radius:10px;">
+                        <img src="assets/img/hero-bg.webp" width="100%" alt="" style="border-top-left-radius:10px; border-bottom-left-radius:10px;">
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-12 pt-4">
                         <form  method="post" role="form" class="php-email-form">
