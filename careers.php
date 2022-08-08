@@ -204,7 +204,6 @@ if(isset($_POST['button']) && isset($_FILES['attachment']))
 	$body .="Content-Transfer-Encoding: base64\r\n";
 	$body .="X-Attachment-Id: ".rand(1000, 99999)."\r\n\r\n";
 
-  echo "<script>console.log( " . $body . ");</script>";
 	$body .= $encoded_content; // Attaching the encoded file with email
     
 	
