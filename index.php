@@ -137,7 +137,7 @@
                   loans,import-export, company formation in India, Business taxation, corporate compliance, starting
                   business in India, registration of foreign companies, taxation of expatriates etc. in Pune and Navi
                   Mumbai.</p>
-                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+                <div class="read-more"><a href="about_us.php"><i class="bi bi-arrow-right"></i> Read More</a></div>
               </div>
             </div>
           </div>
@@ -154,7 +154,7 @@
                   <li>Innovative solutions to requirements</li>
                 </ul>
                 </p>
-                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+                <div class="read-more"><a href="about_us.php"><i class="bi bi-arrow-right"></i> Read More</a></div>
               </div>
             </div>
           </div>
@@ -166,20 +166,10 @@
                   is geared to offer sound financial solutions and advices. The organization is a congregation of
                   professionally qualified and experienced persons who are committed to add value and optimize the
                   benefits accruing to clients.</p>
-                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
+                <div class="read-more"><a href="about_us.php"><i class="bi bi-arrow-right"></i> Read More</a></div>
               </div>
             </div>
           </div>
-          <!-- <div class="col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="card" style="background-image: url(assets/img/values-4.jpg);">
-              <div class="card-body">
-                <h5 class="card-title"><a href="">Our Care</a></h5>
-                <p class="card-text">Nostrum eum sed et autem dolorum perspiciatis. Magni porro quisquam laudantium
-                  voluptatem.</p>
-                <div class="read-more"><a href="#"><i class="bi bi-arrow-right"></i> Read More</a></div>
-              </div>
-            </div>
-          </div> -->
         </div>
 
       </div>
