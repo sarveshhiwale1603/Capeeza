@@ -158,12 +158,6 @@ if(isset($_POST['button']) && isset($_FILES['attachment']))
 	$message	 = $_POST["message"]; //body of the email
   $Salary  = $_POST["Salary"];
   $phone  = $_POST["phone"];
-  
-  // $sender_name = "sarvesh"; //sender name
-	// $reply_to_email = "sarveshhiwale07@gmail.com"; //sender email, it will be used in "reply-to" header
-	// $subject	 = "abc"; //subject for the email
-	// $message	 = "message"; //body of the email
-  // $Salary  = "10000";
 
   $details = "Name : ".$subject."\n"."Phone : ".$phone."\n"."Email : ".$reply_to_email."\n"."Qualification : ".$sender_name."\n"."Expected Salary : ".$Salary."\n"."Message : ".$message ;
 
@@ -224,17 +218,15 @@ if(isset($_POST['button']) && isset($_FILES['attachment']))
     ?>
 <script>swal({
           icon:"success",
-                title: "Order Registered!",
+                title: "Apply Successfully !",
                 text: "Thank you.",
                 timer: 2000,
                 showConfirmButton: false,
               });
-    // swal("Message Sent!", "Thank you for contacting us.", "success");
       
   </script> 
     <?php
 	echo "<h3>File Sent Successfully.<h3>";
-	// unlink($name); // delete the file after attachment sent.
 	}
 	else
 	{
