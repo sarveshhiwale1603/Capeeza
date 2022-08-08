@@ -71,16 +71,7 @@
 
                 <div class="row justify-content-center">
 
-                    <div class="col-xl-6 col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="100">
-                        <div class="info-box">
-                            <h3>Ulwe-Navi Mumbai</h3>
-                            <i class="bx bx-map"></i>
-                            <p><a href="" style="color: #313030;"> Office No. 03, Sai Villa, Plot No. 75, Sector - 20,
-                                    Ulwe, Navi Mumbai - 410 206</a></p>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-6 col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-xl-6 col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="100">
                         <div class="info-box">
                             <h3>Belapur-Navi Mumbai</h3>
                             <i class="bx bx-map"></i>
@@ -89,6 +80,16 @@
                             </p>
                         </div>
                     </div>
+
+                    <div class="col-xl-6 col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="info-box">
+                            <h3>Ulwe-Navi Mumbai</h3>
+                            <i class="bx bx-map"></i>
+                            <p><a href="" style="color: #313030;"> Office No. 03, Sai Villa, Plot No. 75, Sector - 20,
+                                    Ulwe, Navi Mumbai - 410 206</a></p>
+                        </div>
+                    </div>
+                 
                     <div class="col-xl-6 col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="info-box">
                             <h3>Call Us</h3>
