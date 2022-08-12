@@ -28,7 +28,7 @@
                 <li><a class="nav-link scrollto home1" href="index.php">Home</a></li>
                 <li><a class="nav-link scrollto aboutUs" href="about_us.php">About Us</a></li>
                 <li class="dropdown"><a href="#" class="Service"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
-                    <ul class="scrollable-menu">
+                    <ul class="">
                         <!-- <li><a href="#"></a></li> -->
                          <!-- CORPORATE -->
                          <li class="dropdown"><a href="#" class="corp"><span>Corporate</span> <i

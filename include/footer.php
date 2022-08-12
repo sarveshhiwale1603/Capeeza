@@ -17,11 +17,11 @@
                         <a style="color:#fff" href="mailto:info@capeezacorp.com"> info@capeezacorp.com</a></b><br>
                     </p>
                     <div class="social-links text-start text-lg-left pt-3 mt-4 pt-lg-0">
-                        <a href="#" class="twitter" target=""><i class="bx bxl-twitter"></i></a>
-                        <a href="https://www.facebook.com/Capeeza-Corp-Services-113344597510715/" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
-                        <a href="#" class="instagram" target=""><i class="bx bxl-instagram"></i></a>
-                        <a href="#" class="google-plus" target=""><i class="bx bxl-skype"></i></a>
-                        <a href="#" class="linkedin" target=""><i class="bx bxl-linkedin"></i></a>
+                        <!-- <a href="#" class="twitter" target=""><i class="bx bxl-twitter"></i></a> -->
+                        <a href="https://www.facebook.com/Capeeza-Corp-Services-113344597510715" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+                        <a href="https://www.instagram.com/capeezacorpservices/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+                        <a href="#" class="google-plus" target=""><i class="bx bxl-google"></i></a>
+                        <!-- <a href="#" class="linkedin" target=""><i class="bx bxl-linkedin"></i></a> -->
                     </div>
                 </div>
 

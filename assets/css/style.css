@@ -261,7 +261,7 @@ h6 {
   visibility: hidden;
   overflow: scroll;
   height:350px;
-  width: 250px;
+  width: 300px;
 }
 
 .navbar .dropdown .dropdown:hover>ul {
@@ -1302,7 +1302,7 @@ section {
   opacity: 1;
   bottom: 20px;
 }
-
+y
 
 /*--------------------------------------------------------------
 # Portfolio Details
