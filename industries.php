@@ -140,6 +140,13 @@
                         </div>
                     </div>
 
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <img src="assets/images/industries/factory.webp" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>Renewable Industries</h4>
+                        </div>
+                    </div>
+
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <img src="assets/images/industries/Educational-Ististute.webp" class="img-fluid" alt="">
                         <div class="portfolio-info">
