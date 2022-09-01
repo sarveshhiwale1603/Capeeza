@@ -1231,18 +1231,29 @@ section {
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  /* overflow: hidden; */
 }
 
 .portfolio .portfolio-item .portfolio-info {
-  opacity: 0;
+  opacity: 1;
+  bottom: 20px;
   position: absolute;
   left: 30px;
   right: 30px;
-  bottom: 0;
+  /* bottom: 0; */
   z-index: 3;
   transition: all ease-in-out 0.3s;
   background: rgba(255, 255, 255, 0.9);
   padding: 15px;
+}
+.img-fluid{
+  width: 100%;
+  transition: 0.3s all ease-in-out;
+}
+.portfolio .portfolio-item:hover .img-fluid {
+  box-shadow: 0 0 11px rgba(33,33,33,1.5); 
+  transform: scale(1.02);
+  /* border: solid 2px #000000 ; */
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
@@ -1298,11 +1309,7 @@ section {
   color: #ffa587;
 }
 
-.portfolio .portfolio-item:hover .portfolio-info {
-  opacity: 1;
-  bottom: 20px;
-}
-y
+
 
 /*--------------------------------------------------------------
 # Portfolio Details

@@ -85,7 +85,7 @@
                 <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <img src="assets/images/industries/import.webp" class="img-fluid" alt="">
+                        <img src="assets/images/industries/import-export.webp" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Import & Export Industry</h4>
                         </div>
@@ -99,7 +99,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <img src="assets/images/industries/automobile.webp" class="img-fluid" alt="">
+                        <img src="assets/images/industries/automobiles.webp" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Automobile Sector</h4>
                         </div>
@@ -113,28 +113,28 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <img src="assets/images/industries/Petrochemical.webp" class="img-fluid" alt="">
+                        <img src="assets/images/industries/Petrochemicals.webp" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Petrochemical Industry</h4>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <img src="assets/images/industries/Printing&Packaging.webp" class="img-fluid" alt="">
+                        <img src="assets/images/industries/Printer.webp" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Printing & Packaging</h4>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <img src="assets/images/industries/Iron.webp" class="img-fluid" alt="">
+                        <img src="assets/images/industries/steel.webp" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Iron and Steel</h4>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <img src="assets/images/industries/Co-op_Housing.webp" class="img-fluid" alt="">
+                        <img src="assets/images/industries/society.webp" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Co-op Housing Society</h4>
                         </div>
@@ -148,7 +148,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <img src="assets/images/industries/Educational-Ististute.webp" class="img-fluid" alt="">
+                        <img src="assets/images/industries/education.webp" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Educational Institutes</h4>
                         </div>
@@ -160,13 +160,13 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <img src="assets/images/industries/TextileAndGarments.webp" class="img-fluid" alt="">
+                        <img src="assets/images/industries/textiles.webp" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Textile and Garments</h4>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <img src="assets/images/industries/IT-sector.webp" class="img-fluid" alt="">
+                        <img src="assets/images/industries/IT.webp" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>IT sector</h4>
                         </div>
