@@ -141,7 +141,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <img src="assets/images/industries/factory.webp" class="img-fluid" alt="">
+                        <img src="assets/images/industries/renewable.webp" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Renewable Industries</h4>
                         </div>

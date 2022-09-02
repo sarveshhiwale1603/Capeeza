@@ -130,19 +130,19 @@
 
         <div class="row">
           <div class="col-md-4 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="card" style="background-image: url(assets/images/index/whoWeAre.webp);">
+            <div class="card" style="background-image: url(assets/images/index/why-us.webp);">
               <div class="card-body">
                 <h5 class="card-title"><a href="">Who we are?</a></h5>
                 <p class="card-text">We are prominent Business consultants in India. We offer services like
                   loans,import-export, company formation in India, Business taxation, corporate compliance, starting
                   business in India, registration of foreign companies, taxation of expatriates etc. in Pune and Navi
                   Mumbai.</p>
-                <div class="read-more justify-content-end"><a href="about_us.php"><i class="bi bi-arrow-right"></i> Read More</a></div>
+                <!-- <div class="read-more justify-content-end"><a href="about_us.php"><i class="bi bi-arrow-right"></i> Read More</a></div> -->
               </div>
             </div>
           </div>
           <div class="col-md-4 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="100">
-            <div class="card" style="background-image: url(assets/images/index/why-us.webp);">
+            <div class="card" style="background-image: url(assets/images/index/whoWeAre.webp);">
               <div class="card-body">
                 <h5 class="card-title"><a href="">Why us?</a></h5>
                 <p class="card-text">We are team of experienced professionals who add value to their business.
@@ -154,7 +154,7 @@
                   <li>Innovative solutions to requirements</li>
                 </ul>
                 </p>
-                <div class="read-more"><a href="about_us.php"><i class="bi bi-arrow-right"></i> Read More</a></div>
+                <!-- <div class="read-more"><a href="about_us.php"><i class="bi bi-arrow-right"></i> Read More</a></div> -->
               </div>
             </div>
           </div>
@@ -166,7 +166,7 @@
                   is geared to offer sound financial solutions and advices. The organization is a congregation of
                   professionally qualified and experienced persons who are committed to add value and optimize the
                   benefits accruing to clients.</p>
-                <div class="read-more"><a href="about_us.php"><i class="bi bi-arrow-right"></i> Read More</a></div>
+                <!-- <div class="read-more"><a href="about_us.php"><i class="bi bi-arrow-right"></i> Read More</a></div> -->
               </div>
             </div>
           </div>
@@ -203,7 +203,7 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <p>This Is Why</p>
+          <p class="pb-2">This Is Why</p>
           <h2>We Should Work Together</h2>
         </div>
 
