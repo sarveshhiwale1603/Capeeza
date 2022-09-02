@@ -120,7 +120,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <img src="assets/images/industries/Printer.webp" class="img-fluid" alt="">
+                        <img src="assets/images/industries/printer.webp" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Printing & Packaging</h4>
                         </div>
