@@ -113,7 +113,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <img src="assets/images/industries/Petrochemicals.webp" class="img-fluid" alt="">
+                        <img src="assets/images/industries/Petrochemical.webp" class="img-fluid" alt="">
                         <div class="portfolio-info">
                             <h4>Petrochemical Industry</h4>
                         </div>
