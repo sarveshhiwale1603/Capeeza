@@ -132,7 +132,7 @@
           <div class="col-md-4 d-flex align-items-stretch" data-aos="fade-up">
             <div class="card" style="background-image: url(assets/images/index/why-us.webp);">
               <div class="card-body">
-                <h5 class="card-title"><a href="">Who we are?</a></h5>
+                <h5 class="card-title"><a href="about_us.php">Who we are?</a></h5>
                 <p class="card-text">We are prominent Business consultants in India. We offer services like
                   loans,import-export, company formation in India, Business taxation, corporate compliance, starting
                   business in India, registration of foreign companies, taxation of expatriates etc. in Pune and Navi
@@ -144,7 +144,7 @@
           <div class="col-md-4 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="100">
             <div class="card" style="background-image: url(assets/images/index/whoWeAre.webp);">
               <div class="card-body">
-                <h5 class="card-title"><a href="">Why us?</a></h5>
+                <h5 class="card-title"><a href="about_us.php">Why us?</a></h5>
                 <p class="card-text">We are team of experienced professionals who add value to their business.
 
                 <h6>Our clients can expect:</h6>
@@ -161,7 +161,7 @@
           <div class="col-md-4 d-flex align-items-stretch mt-4 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
             <div class="card" style="background-image: url(assets/images/index/how-different.webp);">
               <div class="card-body">
-                <h5 class="card-title"><a href="">How we are different!</a></h5>
+                <h5 class="card-title"><a href="about_us.php">How we are different!</a></h5>
                 <p class="card-text">Our firm of Business consultants represents a coalition of specialized skills that
                   is geared to offer sound financial solutions and advices. The organization is a congregation of
                   professionally qualified and experienced persons who are committed to add value and optimize the
