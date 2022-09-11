@@ -31,7 +31,8 @@
 
   <style>
     .home1{
-      color:cyan !important;
+      color:#ff5821 !important;
+
     }
     @media (max-width: 768px) {
         .home1{

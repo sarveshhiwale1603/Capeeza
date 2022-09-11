@@ -12,9 +12,9 @@
                     </p>
                     <p class="mt-2">
                         <b class="my-3"><i class="bi bi-telephone" style="color:#ff5821;"></i>
-                        <a style="color:#fff" href="tel:+919371151356"> +91 9371151356</a></b><br>
+                        <a style="color:#000" href="tel:+919371151356"> +91 9371151356</a></b><br>
                         <b class="my-3"><i class="bi bi-envelope" style="color:#ff5821;"></i>
-                        <a style="color:#fff" href="mailto:info@capeezacorp.com"> info@capeezacorp.com</a></b><br>
+                        <a style="color:#000" href="mailto:info@capeezacorp.com"> info@capeezacorp.com</a></b><br>
                     </p>
                     <div class="social-links text-start text-lg-left pt-3 mt-4 pt-lg-0">
                         <!-- <a href="#" class="twitter" target=""><i class="bx bxl-twitter"></i></a> -->
