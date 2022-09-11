@@ -116,6 +116,13 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   background: #ebebeb;
+  box-shadow: 1px 1px 20px;
+}
+.gfg2 {
+  border: 1px solid;
+  padding: 10px;
+   
+  /* box-shadow: h-offset v-offset blur */
 }
 
 #header.header-fixed {
@@ -255,14 +262,14 @@ h6 {
   visibility: visible;
 }
 
-.navbar .dropdown .dropdown ul {
+/* .navbar .dropdown .dropdown ul {
   top: 0;
   left: calc(100% - 30px);
   visibility: hidden;
   overflow: scroll;
   height:300px;
   width: 300px;
-}
+} */
 
 .navbar .dropdown .dropdown:hover>ul {
   opacity: 1;
@@ -273,11 +280,11 @@ h6 {
 
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
-    right: -90%;
+    left: -100%;
   }
 
   .navbar .dropdown .dropdown:hover>ul {
-      : -100%;
+      left: -100%;
   }
 }
 
