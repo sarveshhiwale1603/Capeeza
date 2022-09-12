@@ -19,7 +19,7 @@
     rel="stylesheet"> -->
     
   <!-- Vendor CSS Files -->
-  <!-- <link href="assets/vendor/bootstrap/css/index-bootstrap.css" rel="stylesheet"> -->
+  <link href="assets/vendor/bootstrap/css/index-bootstrap.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/index.css" rel="stylesheet">
 
