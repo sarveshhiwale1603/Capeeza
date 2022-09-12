@@ -19,7 +19,7 @@
     rel="stylesheet"> -->
     
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap-icons/bi.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/bootstrap-icons/bi.css" rel="stylesheet"> -->
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"> 
  
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
