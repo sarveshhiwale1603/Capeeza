@@ -1,0 +1,129 @@
+@font-face {
+    font-display: block;
+    font-family: "bootstrap-icons";
+    src: url("./fonts/bootstrap-icons.woff2?8d200481aa7f02a2d63a331fc782cfaf") format("woff2"),
+  url("./fonts/bootstrap-icons.woff?8d200481aa7f02a2d63a331fc782cfaf") format("woff");
+  }
+  
+  .bi::before,
+  [class^="bi-"]::before,
+  [class*=" bi-"]::before {
+    display: inline-block;
+    font-family: bootstrap-icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    vertical-align: -.125em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .bi-envelope-fill::before { content: "\f32c"; }
+.bi-envelope-open-fill::before { content: "\f32d"; }
+.bi-envelope-open::before { content: "\f32e"; }
+.bi-envelope::before { content: "\f32f"; }
+
+.bi-phone-fill::before { content: "\f4e2"; }
+.bi-phone-landscape-fill::before { content: "\f4e3"; }
+.bi-phone-landscape::before { content: "\f4e4"; }
+.bi-phone-vibrate-fill::before { content: "\f4e5"; }
+.bi-phone-vibrate::before { content: "\f4e6"; }
+.bi-phone::before { content: "\f4e7"; }
+
+.bi-chevron-bar-contract::before { content: "\f273"; }
+.bi-chevron-bar-down::before { content: "\f274"; }
+.bi-chevron-bar-expand::before { content: "\f275"; }
+.bi-chevron-bar-left::before { content: "\f276"; }
+.bi-chevron-bar-right::before { content: "\f277"; }
+.bi-chevron-bar-up::before { content: "\f278"; }
+.bi-chevron-compact-down::before { content: "\f279"; }
+.bi-chevron-compact-left::before { content: "\f27a"; }
+.bi-chevron-compact-right::before { content: "\f27b"; }
+.bi-chevron-compact-up::before { content: "\f27c"; }
+.bi-chevron-contract::before { content: "\f27d"; }
+.bi-chevron-double-down::before { content: "\f27e"; }
+.bi-chevron-double-left::before { content: "\f27f"; }
+.bi-chevron-double-right::before { content: "\f280"; }
+.bi-chevron-double-up::before { content: "\f281"; }
+.bi-chevron-down::before { content: "\f282"; }
+.bi-chevron-expand::before { content: "\f283"; }
+.bi-chevron-left::before { content: "\f284"; }
+.bi-chevron-right::before { content: "\f285"; }
+.bi-chevron-up::before { content: "\f286"; }
+
+.bi-eye-fill::before { content: "\f33e"; }
+.bi-eye-slash-fill::before { content: "\f33f"; }
+.bi-eye-slash::before { content: "\f340"; }
+.bi-eye::before { content: "\f341"; }
+.bi-eyedropper::before { content: "\f342"; }
+.bi-eyeglasses::before { content: "\f343"; }
+
+.bi-lightbulb-fill::before { content: "\f468"; }
+.bi-lightbulb-off-fill::before { content: "\f469"; }
+.bi-lightbulb-off::before { content: "\f46a"; }
+.bi-lightbulb::before { content: "\f46b"; }
+.bi-lightning-charge-fill::before { content: "\f46c"; }
+.bi-lightning-charge::before { content: "\f46d"; }
+.bi-lightning-fill::before { content: "\f46e"; }
+.bi-lightning::before { content: "\f46f"; }
+
+.bi-clock-fill::before { content: "\f291"; }
+.bi-clock-history::before { content: "\f292"; }
+.bi-clock::before { content: "\f293"; }
+
+.bi-gear-fill::before { content: "\f3e2"; }
+.bi-gear-wide-connected::before { content: "\f3e3"; }
+.bi-gear-wide::before { content: "\f3e4"; }
+.bi-gear::before { content: "\f3e5"; }
+
+.bi-check-all::before { content: "\f269"; }
+.bi-check-circle-fill::before { content: "\f26a"; }
+.bi-check-circle::before { content: "\f26b"; }
+.bi-check-square-fill::before { content: "\f26c"; }
+.bi-check-square::before { content: "\f26d"; }
+.bi-check::before { content: "\f26e"; }
+.bi-check2-all::before { content: "\f26f"; }
+.bi-check2-circle::before { content: "\f270"; }
+.bi-check2-square::before { content: "\f271"; }
+.bi-check2::before { content: "\f272"; }
+
+.bi-currency-bitcoin::before { content: "\f635"; }
+.bi-currency-dollar::before { content: "\f636"; }
+.bi-currency-euro::before { content: "\f637"; }
+.bi-currency-exchange::before { content: "\f638"; }
+.bi-currency-pound::before { content: "\f639"; }
+.bi-currency-yen::before { content: "\f63a"; }
+.bi-currency-rupee::before { content: "\f7ec"; }
+
+.bi-question-circle-fill::before { content: "\f504"; }
+.bi-question-circle::before { content: "\f505"; }
+.bi-question-diamond-fill::before { content: "\f506"; }
+.bi-question-diamond::before { content: "\f507"; }
+.bi-question-octagon-fill::before { content: "\f508"; }
+.bi-question-octagon::before { content: "\f509"; }
+.bi-question-square-fill::before { content: "\f50a"; }
+.bi-question-square::before { content: "\f50b"; }
+.bi-question::before { content: "\f50c"; }
+.bi-question-lg::before { content: "\f64e"; }
+
+.bi-vinyl-fill::before { content: "\f607"; }
+.bi-vinyl::before { content: "\f608"; }
+
+.bi-telephone-fill::before { content: "\f5b4"; }
+.bi-telephone-forward-fill::before { content: "\f5b5"; }
+.bi-telephone-forward::before { content: "\f5b6"; }
+.bi-telephone-inbound-fill::before { content: "\f5b7"; }
+.bi-telephone-inbound::before { content: "\f5b8"; }
+.bi-telephone-minus-fill::before { content: "\f5b9"; }
+.bi-telephone-minus::before { content: "\f5ba"; }
+.bi-telephone-outbound-fill::before { content: "\f5bb"; }
+.bi-telephone-outbound::before { content: "\f5bc"; }
+.bi-telephone-plus-fill::before { content: "\f5bd"; }
+.bi-telephone-plus::before { content: "\f5be"; }
+.bi-telephone-x-fill::before { content: "\f5bf"; }
+.bi-telephone-x::before { content: "\f5c0"; }
+.bi-telephone::before { content: "\f5c1"; }
+
+.bi-arrow-up-short::before { content: "\f145"; }

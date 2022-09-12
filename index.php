@@ -19,7 +19,7 @@
     rel="stylesheet"> -->
     
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bi.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"> 
  
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -88,7 +88,7 @@
               <div class="row">
                 <div class="col-xl-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                   <div class="icon-box mt-4 mt-xl-0">
-                    <div class="icon "> <i class="bi bi-eye-fill"></i></div> <br>
+                    <div class="icon "> <i class="bi bi-eye"></i></div> <br>
                     <h4>Our Vision</h4>
                     <p>To be the successful, Respected and trusted business partners by providing excellent service to
                       our clients.
