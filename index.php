@@ -42,6 +42,9 @@
       color:#ff5821 !important;
     } 
     }
+    .client-img{
+      width:100%;
+    }
   </style>
 
 </head>
@@ -186,14 +189,14 @@
 
     <div class="clients-slider swiper">
       <div class="swiper-wrapper align-items-center">
-        <div class="swiper-slide"><img src="assets/images/clients/Excel-group.webp" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="assets/images/clients/healthy-trends.webp" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="assets/images/clients/Advik.webp" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="assets/images/clients/APMC.webp" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="assets/images/clients/Kedar-Masale.webp" class="img-fluid" alt=""></div>
-        <div class="swiper-slide"><img src="assets/images/clients/WAFT.webp" class="img-fluid" alt=""></div>
-        <!-- <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div> -->
-        <!-- <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div> -->
+        <div class="swiper-slide"><img src="assets/images/clients/Excel-group.webp" class="img-fluid client-img" alt=""></div>
+        <div class="swiper-slide"><img src="assets/images/clients/healthy-trends.webp" class="img-fluid client-img" alt=""></div>
+        <div class="swiper-slide"><img src="assets/images/clients/Advik.webp" class="img-fluid client-img" alt=""></div>
+        <div class="swiper-slide"><img src="assets/images/clients/APMC.webp" class="img-fluid client-img" alt=""></div>
+        <div class="swiper-slide"><img src="assets/images/clients/Kedar-Masale.webp" class="img-fluid client-img" alt=""></div>
+        <div class="swiper-slide"><img src="assets/images/clients/WAFT.webp" class="img-fluid client-img" alt=""></div>
+        <!-- <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid client-img" alt=""></div> -->
+        <!-- <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid client-img" alt=""></div> -->
       </div>
       <div class="swiper-pagination"></div>
     </div>
