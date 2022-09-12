@@ -32,7 +32,7 @@
   <link href="assets/vendor/swiper/swiper-index.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <!-- <link href="assets/css/google-font.css" rel="stylesheet"> -->
+  <link href="assets/css/google-font.css" rel="stylesheet">
 
 
   <style>
