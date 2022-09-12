@@ -19,8 +19,9 @@
     rel="stylesheet"> -->
     
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/index-bootstrap.css" rel="stylesheet">
-  <link href="assets/css/index2.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/bootstrap/css/index-bootstrap.css" rel="stylesheet"> -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/index.css" rel="stylesheet">
 
 
   <link href="assets/vendor/bootstrap-icons/bi.css" rel="stylesheet">
@@ -31,7 +32,7 @@
   <link href="assets/vendor/swiper/swiper-index.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/google-font.css" rel="stylesheet">
+  <!-- <link href="assets/css/google-font.css" rel="stylesheet"> -->
 
 
   <style>
