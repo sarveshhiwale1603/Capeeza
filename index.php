@@ -74,18 +74,6 @@
       <div class="container">
 
         <div class="row">
-          <!-- <div class="col-xl-4 col-lg-5" data-aos="fade-up">
-            <div class="content">
-              <h3>Why Choose Flexor for your company website?</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
-              </p>
-              <div class="text-center">
-                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
-              </div>
-            </div>
-          </div> -->
           <div class="col-xl-12 col-lg-12 d-flex">
             <div class="icon-boxes d-flex flex-column justify-content-center">
               <div class="row">
@@ -338,7 +326,7 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <!-- <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script> -->
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <!-- <script src="assets/vendor/swiper/swiper-bundle.min.js"></script> -->
   <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
 
   <!-- Template Main JS File -->
